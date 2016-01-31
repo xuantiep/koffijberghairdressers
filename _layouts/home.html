@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="home" id="top">
+  <div id="splash"><table cellpadding="0" cellspacing="0"><tr><td><img src="/img/koffijberglogo_white.svg" onerror="this.onerror=null; this.src='/img/koffijberglogo_white.png'" /></td></tr></table></div>
+    <div id="review" class="hidden-xs"><div style="position: absolute; z-index: 99; cursor: pointer; width: 160px; height: 120px;" onclick="window.open('https://www.wiewathaar.nl/salons/koffijberg-hairdressers/');"></div><iframe scroling="no" width="160" height="120" allowtransparency="1" src="https://www.wiewathaar.nl/embed.php?sid=50577&c=0" border="0" frameborder="0" style="background: #acdfe4;"></iframe></div>
+    {% include header.html %}
+    <a class="arrow bounce" href="#over-ons"></a>
+    <div class="intro"><div><div>
+  		<div class="container">
+  			<div class="row">
+  		    	<div class="col-md-8"></div>
+            <div class="col-md-4 highlight">
+            <table cellpadding="0" cellspacing="0"><tr><td>
+            {% for d in page.highlights %}
+  		    	    <article id="n{{ forloop.index }}">
+                        <header class="post-header">
+                          <h1 class="post-title">{{ d.title }}</h1>
+                        </header>
+                      
+                        <div class="post-content">
+                              <p>{{ d.text }}</p>
+                              <a href="/contact" class="btn btn-primary">Make an appointment</a><br />
+                              <a href="tel:020-6732374" class="btn mobile">call 020-6732374</a>
+                              <span class="btn desktop">call 020-6732374</span>
+                        </div>
+                </article> 
+            {% endfor %}
+            </td></tr></table>
+  		    	</div>
+  		    </div>
+  		</div>
+    </div></div></div>
+
+
+    <div class="about" id="over-ons">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-1"></div>
+            <div class="col-lg-8 col-md-10">
+                <article>
+                     
+                        <header class="post-header">
+                          <span class="editable">About Koffijberg</span>
+                          <h1 class="post-title editable">Leading hairdresser in Amsterdam</h1>
+                        </header>
+                      
+                        <div class="post-content"><div class="editable"><p>In the past, Koffijberg Hairdressers has won, amongst others, the Global Salon Business Award and, in 2013, the Coiffure Award. Our hairdressers have been acknowledged by the industry through a variety of awards. For over 40 years, our trendsetting approach stands for craftsmanship, creativity, and innovation in haircuts, colors, and styling. Our hairdressers excel in their technical skills and dedicated approach to their clients. <a href="/about/index.html">Read more...</a></p></div>
+                              <a href="/contact" class="btn btn-primary">Make an appointment</a>
+                        </div>
+                      
+                </article>
+            </div>
+            <div class="col-lg-2 col-md-1"></div>
+          </div>
+      </div>
+    </div>
+
+
+
+
+    <div class="salon" id="openingstijden">
+      <div class="container">
+        <div class="circle">
+          <article>
+            <header class="post-header">
+              <h1 class="post-title">Opening hours</h1>
+            </header>
+            <div class="post-content">
+              {% include openingstijden.html %}
+            </div>
+        </article></div>
+      </div>
+    </div>
+
+
+    <div class="behandelingen" id="behandelingen">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="post-title editable">Treatments</h1>
+            </div>
+        </div>
+        <div class="row post-content">
+            <div class="col-lg-9">
+                              <table cellpadding="0" cellspacing="0">
+                              <tr><td><b>Women</b></td><td class="text-center"><b>Stylist</b></td><td class="text-center"><b>Top-Stylist</b></td><td class="text-center"><b>Master-Stylist<sup>1</sup></b></td></tr>
+                              {% for d in site.data.treatments.ladies %}
+                                  {% for p in d.prijs %}
+                                  <tr><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  {% endfor %}
+                              {% endfor %}
+                              <tr><td colspan="4"><br /><b>Men</b></td></tr>
+                              {% for d in site.data.treatments.gents %}
+                                  {% for p in d.prijs %}
+                                  <tr><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  {% endfor %}
+                              {% endfor %}
+                              <tr><td colspan="4"><br /><b>Children / adolescents / students<sup>2</sup></b></td></tr>
+                              {% for d in site.data.treatments.discounts %}
+                                  {% for p in d.prijs %}
+                                  <tr><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  {% endfor %}
+                              {% endfor %}
+                              <tr class="expand1"><td colspan="4"><br /><b>Color<sup>3</sup></b></td></tr>
+                              {% for d in site.data.treatments.colorings %}
+                                  {% for p in d.prijs %}
+                                  <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  {% endfor %}
+                              {% endfor %}
+                              <tr class="expand1"><td colspan="4"><br /><b>Blow-dry-area</b></td></tr>
+                              {% for d in site.data.treatments.blow-dry %}
+                                  {% for p in d.prijs %}
+                                  <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  {% endfor %}
+                              {% endfor %}
+                              <tr class="expand1"><td colspan="4"><br /><b>Wash blow-dry</b></td></tr>
+                              {% for d in site.data.treatments.wash-and-dry %}
+                                  {% for p in d.prijs %}
+                                  <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  {% endfor %}
+                              {% endfor %}
+                              <tr class="expand1"><td colspan="4"><br /><b>Specials</b></td></tr>
+                              {% for d in site.data.treatments.specials %}
+                                  {% for p in d.prijs %}
+                                  <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  {% endfor %}
+                              {% endfor %}
+                              <tr class="expand1"><td colspan="4"><br /><b>Wash massages</b></td></tr>
+                              {% for d in site.data.treatments.wash-massages %}
+                                  {% for p in d.prijs %}
+                                  <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  {% endfor %}
+                              {% endfor %}
+                              <tr class="expand1"><td colspan="4"><br /><b>Extensions<sup>4</sup></b></td></tr>
+                              {% for d in site.data.treatments.extensions %}
+                                  {% for p in d.prijs %}
+                                  <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  {% endfor %}
+                              {% endfor %}
+                              </table><br />
+
+
+
+<div id="expand1" style="padding-bottom: 30px; position: relative; top: 5px;"><a id="expandbutton" class="btn btn-primary">View all our treatments</a></div>
+            </div>
+            <div class="col-lg-3">
+              <div class="sidebar" style="margin-top: 7px;">
+                <p class="smaller editable"><sup>1</sup> For Kimm Koffijberg a surcharge is added.<br />
+                  <sup>2</sup> Standard discount rates cannot be combined with other offers and do not apply to treatments by Master-Stylists and Color Specialists.
+                </p>
+                <div class="expand1">
+                  <p class="smaller editable"><sup>3</sup> All color treatments include a hair wash and a complete care treatment (nourishing cream, head massage, and a hot towel).<br />
+                  <sup>4</sup> All Extension treatments are scheduled after a personal consult by one of our specialists. These consults are free of charge.</p>
+                </div>
+                <p class="smaller editable"><br />All prices of color treatments are starting prices. The final prices may differ from the prices listed above. The final prices partially depend on the time that is needed for the treatment. Prices may also be affected by the amount of product that is needed. The hairdresser can provide you with an estimate, prior to the treatment.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="salon2">
+    </div>
+
+
+
+    
+
+
+<div class="twocols">
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-lg-6">
+                <article>
+                        <header class="post-header">
+                          <h1 class="post-title editable">Blow Dry Area</h1>
+                        </header>
+                                              
+                        <div class="post-content"><div class="editable"><p><img src="img/blowdryarea.jpg" style="margin-bottom: 15px; cursor: pointer;" onclick="document.location.href='behandelingen/blow-dry/';" /><br />THE trend in the United States, now also in our salon: The Blow Dry Area. Within 30 minutes, we blow-dry your hair or create an updo. Meanwhile, you enjoy a drink and a snack. You arrive at the salon with your hair washed and dried. There, you simply select one of our looks and we make sure that, within half an hour, you leave the salon with a hairstyle that is catwalk-proof. A blow-out is quick and affordable. Unexpected business meeting? A party this evening? Give us a call or visit the salon and book a blow-out.</p></div>
+                              <a href="/contact" class="btn btn-primary">Make an appointment</a>
+                        </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-6">
+                <article>
+                        <header class="post-header">
+                          <h1 class="post-title editable">Color I-dentity</h1>
+                        </header>
+                                              
+                        <div class="post-content"><div class="editable"><p>Koffijberg Hairdressers takes hair color analysis to another level. Together with you, we select the hair color that suits your lifestyle and wishes. Would you like your hair color to match your skin tone or the color of your eyes? Would you like to come across stronger or more professional looking? Would you like to be noticed more at work? Is there something in your life that makes you want to change your image? Based a short list of questions, mood boards, and color collars, our color specialists can provide you with professional advice. Visit our salon and experience it yourself.</p></div>
+                              <a href="/contact" class="btn btn-primary">Make an appointment</a>
+                        </div>
+                </article>
+            </div>
+
+          </div>
+      </div>
+    </div>
+
+
+    <div class="team" id="team">
+      <div class="container">
+        <article>
+        <div class="row">
+            <div class="col-md-1 col-lg-2"></div>
+            <div class="col-md-10 col-lg-8">
+
+                        <header class="post-header">
+                          <h1 class="post-title editable">Team</h1>
+                        </header>
+
+                        <div class="post-content editable"><p>The team of Koffijberg Hairdressers consists of different talented hairdressers. Within the team, all hairdressers share the same philosophy: personal attention, craftsmanship, and personalized advice, tailored tot the client’s inner and outer beauty.</p></div>
+            </div>
+            <div class="col-md-1 col-lg-2"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10" style="padding-bottom: 10px;">                  
+
+                        <span onclick="prevmember();" class="prev teamcontrol"><i class="fa icon-angle-left"></i></span><span onclick="nextmember();" class="next teamcontrol"><i class="fa icon-angle-right"></i></span>
+                        {% assign members = site.members | sort: 'order' %}
+                        <ul class="ch-grid">{% for d in members %}<li>
+                            <div class="ch-item ch-img-1" style="background-image: url({{ d.image }});" onclick="document.location.href='{{ d.url }}';">
+                              <div class="ch-info">
+                                <h3>{{ d.naam }}</h3>
+                                <p>{{ d.functie }}</p>
+                              </div>
+                            </div>
+                          </li>{% endfor %}</ul>
+                       
+              </div>
+              <div class="col-lg-1"></div>
+        </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="twocols">
+      <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-lg-6">
+                <article>
+                        <header class="post-header">
+                          <h1 class="post-title editable">Extentions & Fillers</h1>
+                        </header>
+                                              
+                        <div class="post-content"><div class="editable"><p>Would you like to have a full and lush hairstyle, create length for an updo, or change to a different color? Are you hesitant to make a permanent change? Using Balmain hair extensions, we can make these dreams come true. Hair extensions are hair pieces made of real or synthetic hair, which can be placed between your own, natural hair. As a result, your hair becomes longer and/or fuller. They last 3 months. You can add just a few extensions or the so-called Longueur+ hair pieces, which equal 18 extensions. Your hair remains easy to style: creating curls, blow-drying, everything is possible. Having a ponytail or a hair piece for just one night only is also possible.
+To discuss the possibilities and to receive a personalized advice, you can make an appointment in our salon. This appointment is both informal and free of charge.</p></div>
+                              <a href="/contact" class="btn btn-primary">Make an appointment</a>
+                        </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-lg-6">
+                <article>
+                        <header class="post-header">
+                          <h1 class="post-title editable">Shining grey</h1>
+                        </header>
+                                              
+                        <div class="post-content"><div class="editable"><p>Kimm Koffijberg has developed a unique concept, for women who would like to grow out their colored hair into a natural, yet sparkling and modern grey look
+‘Shining grey’ follows a subtle and personalized step-by-step plan and typically takes about one year. Every 3 to 4 months, you visit our salon. Each visit, our hairdressers cleverly place low- as well as highlights in order to increasingly blend the colored and grey hair. This way, you and the people around you can slowly get used to your new, grey color. In the meantime, our hairdressers protect the quality and the color of your hair. The result after one year: a sparkling, grey and modern look.</p></div>
+                              <a href="/contact" class="btn btn-primary">Make an appointment</a>
+                        </div>
+                </article>
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
