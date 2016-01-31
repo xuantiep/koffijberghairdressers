@@ -3,4 +3,4 @@ title: Nieuwsberichten
 layout: nieuws
 ---
 
-Hieronder staan alle nieuwsberichten van de afgelopen jaren. 
+Below you will find all news items.
