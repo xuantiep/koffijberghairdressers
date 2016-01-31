@@ -1,0 +1,22 @@
+- dag: Monday
+  vanaf: '09.15'
+  tot: '19.00'
+- dag: Tuesday
+  vanaf: '09.15'
+  tot: '21.00'
+- dag: Wednesday
+  vanaf: '09.15'
+  tot: '17.30'
+- dag: Thursday
+  vanaf: '09.15'
+  tot: '21.00'
+- dag: Friday
+  vanaf: '09.15'
+  tot: '19.00'
+- dag: Saturday
+  vanaf: '08.15'
+  tot: '17.00'
+- dag: Sunday
+  vanaf: closed
+  tot: closed
+  
