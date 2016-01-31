@@ -1,0 +1,41 @@
+<footer>
+
+<div class="site-footer">
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-7 col-sm-6 text-center visible-xs"><h3 style="cursor: pointer;" onclick="document.location.href='/news';">Recent posts</h3><p>{% for post in site.posts limit:7  %}{{ post.date | date: "%-d/%m/%Y" }} - <a href="{{ post.url }}">{{ post.title }}</a><br />{% endfor %}</p></div>
+            <div class="col-lg-3 col-sm-3 col-xs-6"><h3 id="contact">Contact</h3><p>{% include contactinfo.html %}</p></div>
+            <div class="col-lg-2 col-sm-3 col-xs-6"><h3>Opening hours</h3>{% include openingstijden.html %}</div>
+            <div class="col-lg-7 col-sm-6 text-center hidden-xs"><h3 style="cursor: pointer;" onclick="document.location.href='/news';">Recent posts</h3><p>{% for post in site.posts limit:7 %}{{ post.date | date: "%-d/%m/%Y" }} - <a href="{{ post.url }}">{{ post.title }}</a><br />{% endfor %}</p></div>
+          </div>
+      </div>
+</div>
+<div class="site-footer2">
+      <div class="container">
+        <div class="row">
+        	<div class="col-lg-8 col-sm-7"><p>Koffijberg Hairdressers - for personal advice, beautiful hair coloring, service, quality and professionalism</p></div>
+        	<div class="col-lg-4 col-sm-5 text-right"><p><a href="/privacy">Privacy</a>&nbsp;&nbsp;&nbsp;<a href="/disclaimer">Disclaimer</a>&nbsp;&nbsp;&nbsp;
+        	<i class="fa icon-facebook-squared" onclick="window.open('https://www.facebook.com/Koffijberg-Hairdressers-143537182417933/');"></i> 
+        	<i class="fa icon-twitter-squared" onclick="window.open('https://twitter.com/KoffijbergHair');"></i> 
+        	<i class="fa icon-pinterest-squared" onclick="window.open('https://nl.pinterest.com/koffijberghair/');"></i> 
+        	<i class="fa icon-instagram" onclick="window.open('https://instagram.com/koffijberghairdressers/');"></i></p></div>
+        </div>
+      </div>
+</div>
+</footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{{ "/js/combined.js" | prepend: site.baseurl }}"></script>
+    
+    <script>
+    //open external links in a new window
+    function externalLinks() {
+      for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+        var b = c[a];
+        b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+      }
+    }
+    externalLinks();
+    </script> 
