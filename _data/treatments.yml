@@ -117,13 +117,13 @@ colorings:
         masterstylist: ''
     url: ''
 blow-dry:
-  - item: Normaal (30 min)
+  - item: Normal (30 min)
     prijs:
       - stylist: € 30.00
         topstylist: € 30.00
         masterstylist: n.v.t.
     url: ''
-  - item: Toeslag lang haar (per 15 min)
+  - item: Premium for long hair (per 15 min.)
     prijs:
       - stylist: € 15.00
         topstylist: € 15.00
