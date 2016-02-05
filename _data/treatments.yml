@@ -50,67 +50,67 @@ discounts:
         masterstylist: n.v.t.
     url: ''
 colorings:
-  - item: Kleuring
+  - item: coloration
     prijs:
       - stylist: € 62.75
         topstylist: € 62.75
         masterstylist: € 68.00
     url: ''
-  - item: Kleuring + Streaks effect
+  - item: coloration + Streaks effect
     prijs:
       - stylist: € 99.75
         topstylist: € 99.75
         masterstylist: € 109.80
     url: ''
-  - item: Kleuring + Streaks
+  - item: coloration+ Streaks
     prijs:
       - stylist: € 132.95
         topstylist: € 132.95
         masterstylist: € 144.45
     url: ''
-  - item: Kleuring + Streaks Lang haar
+  - item: coloration+ Streaks Long-Hair
     prijs:
       - stylist: € 148.80
         topstylist: € 148.80
         masterstylist: € 162.80
     url: ''
-  - item: Highlights deel
+  - item: Highlights half head
     prijs:
       - stylist: € 65.45
         topstylist: € 65.45
         masterstylist: € 73.30
     url: ''
-  - item: Highlights heel
+  - item: Highlights whole head
     prijs:
       - stylist: € 99.65
         topstylist: € 99.65
         masterstylist: € 109.80
     url: ''
-  - item: Free hand techniek deel
+  - item: freehand technique half head
     prijs:
       - stylist: n.v.t.
         topstylist: € 132.40
         masterstylist: € 145.50
     url: ''
-  - item: Free hand techniek heel
+  - item: freehand technique whole head
     prijs:
       - stylist: n.v.t.
         topstylist: € 184.20
         masterstylist: € 200.20
     url: ''
-  - item: Free hand techniek lang haar
+  - item: freehand technique long hair
     prijs:
       - stylist: n.v.t.
         topstylist: € 198.75
         masterstylist: € 217.70
     url: ''
-  - item: Ontkleuring / Ultimate blond
+  - item: Discoloration / Ultimate blond
     prijs:
       - stylist: € 77.65
         topstylist: € 77.65
         masterstylist: € 84.35
     url: ''
-  - item: Overige behandelingen op aanvraag
+  - item: Other treatments on request
     prijs:
       - stylist: ''
         topstylist: ''
