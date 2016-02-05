@@ -37,13 +37,13 @@ gents:
         masterstylist: € 56.35
     url: /behandelingen/wassen-knippen
 discounts:
-  - item: t/m 12 jaar
+  - item: up to 12 years
     prijs:
       - stylist: € 29.25
         topstylist: € 33.50
         masterstylist: n.v.t.
     url: ''
-  - item: tot 20 jaar + studenten
+  - item: 'up to 20 years & students'
     prijs:
       - stylist: '20% korting'
         topstylist: '20% korting'
