@@ -11,19 +11,19 @@ ladies:
         topstylist: € 68.00
         masterstylist: € 75.20
     url: /behandelingen/wassen-knippen-drogen
-  - item: Wassen-knippen-föhnen
+  - item: 'Wash, Cut & Blow-Dry (60 min.)'
     prijs:
       - stylist: € 56.05
         topstylist: € 74.60
         masterstylist: € 82.50
     url: /behandelingen/wassen-knippen-fohnen
-  - item: Wassen-knippen-föhnen-middellang haar
+  - item: 'Wash, Cut & Blow-Dry Medium-Long Hair (75 min.)'
     prijs:
       - stylist: € 66.75
         topstylist: € 87.90
         masterstylist: € 96.00
     url: /behandelingen/wassen-knippen-fohnen-middel-lang-haar
-  - item: Wassen-knippen-föhnen-lang haar
+  - item: 'Wash, Cut & Blow-Dry Long Hair (90 min.)'
     prijs:
       - stylist: € 72.85
         topstylist: € 101.40
