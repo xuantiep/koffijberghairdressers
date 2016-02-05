@@ -6,6 +6,4 @@ functie: Master-Stylist
 order: 1
 ---
 
-Ik houd ervan om mensen goed en passend advies te geven. Als iemand een tijdje niet naar de kapper is geweest bijvoorbeeld, dan ga ik samen met de klant op zoek naar een passende coupe. Als rasechte Amsterdamse ben ik heel nuchter in mijn aanpak. Ik zorg graag voor duidelijke communicatie tussen mij en mijn klanten. 
-
-*Beschikbaarheid: do / vr / za*
+*Available: do / vr / za*
