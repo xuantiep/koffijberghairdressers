@@ -377,11 +377,11 @@ footer a, footer a:hover, footer a:focus {
   border-color: transparent; }
 
 .navbar-default .navbar-brand {
-  margin: 11px 0 0; }
+  margin: 2px 0 0; }
 
 .navbar-default .navbar-brand img {
   display: block;
-  width: 200px; }
+  width: 170px; }
 
 .navbar-default .navbar-brand img.attop {
   display: none; }
@@ -564,6 +564,9 @@ a:hover {
 .btn:active {
   -webkit-box-shadow: none;
   box-shadow: none; }
+
+.form-control.error {
+  border-color: red; }
 
 .arrow {
   position: absolute;
