@@ -81,8 +81,7 @@ Characteristic of I-dentity is the elaborate interaction between the client and 
 
 | Hairstyles /coloring techniques: | Kimm Koffijberg and Creative team |
 | Creative team: | Kimm Koffijberg, Pim van der Lelij, Linda de Wit |
-| Fotografie: | Hans Mooijer |
-| Visagie: | Dominika Swietlink |
+| Photography: | Hans Mooijer |
+| Makeup: | Dominika Swietlink |
 | Styling: | Patricia Giesbers |
-
-Met dank aan: Keune Haircosmetics en Denman Brushes. Tekst: Karin Jobse, senior communicatieadviseur
+| Text: | Karin Jobse, senior communication advisor |
