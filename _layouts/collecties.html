@@ -42,18 +42,18 @@
                             {% for post in sitecollecties %}
                                 <p style='margin:0; padding: 0;'><a href="{{ post.url }}">{{ post.title }}</a> - {% assign m = post.date | date: "%-m" %}
                                   {% case m %}
-                                    {% when '1' %}januari
-                                    {% when '2' %}februari
-                                    {% when '3' %}maart
-                                    {% when '4' %}april
-                                    {% when '5' %}mei
-                                    {% when '6' %}juni
-                                    {% when '7' %}juli
-                                    {% when '8' %}augustus
-                                    {% when '9' %}september
-                                    {% when '10' %}oktober
-                                    {% when '11' %}november
-                                    {% when '12' %}december
+                                    {% when '1' %}January
+                                    {% when '2' %}February
+                                    {% when '3' %}March
+                                    {% when '4' %}April
+                                    {% when '5' %}May
+                                    {% when '6' %}June
+                                    {% when '7' %}July
+                                    {% when '8' %}August
+                                    {% when '9' %}September
+                                    {% when '10' %}October
+                                    {% when '11' %}November
+                                    {% when '12' %}December
                                   {% endcase %}
                                   {{ post.date | date: "%Y" }}</p>
                             {% endfor %}
