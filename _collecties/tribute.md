@@ -43,7 +43,7 @@ Starting from the model’s squared facial shape, volume has been created in the
 
 ## Then
 
-In dit kapsel herken je de ambachtelijkheid. Er is gewerkt met harde en zachte lijnen en het haar is op verschillende manieren te stylen: kort/lang.
+In dit kapsel herken je de ambachtelijkheid. Er is gewerkt met harde en zachte lijnen en het haar is op verschillende manieren te stylen: kort/lang.With this hairstyle, you recognize craftsmanship. Strong and soft lines have been combined and the hair can be styled in different ways: short/long. 
 
 ## Now
 
