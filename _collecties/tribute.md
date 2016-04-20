@@ -53,11 +53,12 @@ Also today, Kimm uses both strong and soft lines. This model’s facial shape ha
 
 ## Then
 
-Dit zogenaamde ‘Bob-kapsel’ is heel grafisch met ronde vormen in het gezicht. De kleurtechniek is vierkant. In alles is contrast te zien. Destijds vond men: Het model heeft een zacht gezicht dus harde lijnen zijn ok&eacute;.
+This so-called ‘Bob hairstyle’ is very graphic, with its round facial shapes. The coloring technique is squared. Everything says contrast. Back then people said: the model has a soft face, so the hard lines are okay.
 
 ## Now
 
-Het model heeft een sterk en rechthoekig gezicht. Door de pony iets korter te knippen en door de ronde kniplijnen verkort je het voorhoofd en maak je het gezicht meer ovaal. Bij de wetlook zijn de ronde vormen weg, maar door de aangebrachte structuur blijft de zachte uitstraling behouden. Vanwege de sterke lijnen in de coupe is er voor een niet te koele kleur gekozen. Als je hier kiest voor een koele tint zou haar uitstraling te hard worden. Het contrast zit hem hier in de combinatie van een zachtere/warmere haarkleur met strakkere lijnen. Het haar is met een ronde borstel glad gef&ouml;hnd met de volumes rond naar binnen. De wetlook is een leuke variatie.
+The model has a strong and rectangular face. By cutting her fringe a bit shorter and by using round cutting lines, you shorten the forehead and make her face look more oval shaped. With a wet-look, the round shapes disappear, but by applying structure, a soft appearance is maintained.
+Because of the strong lines in this hairstyle, a color was chosen that is not overly cool. If you would opt for a cool tone, the model would come across as cold. Contrast is created by combining a soft/warm hair color with strong lines. The hair has been blow-dried straight using a round brush, rolling the end of the layers inward in order to create a rounded shape. 
 
 ## Het concept I-dentity
 
