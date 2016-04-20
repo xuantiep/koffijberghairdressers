@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+
   {% include head.html %}
 
   <body id="body" class="page-template post" onload="if(getParameterByName('url')) setimage('url'); {% assign num_images = page.images | size %}{% if num_images <= 1 %}document.getElementById('controls').style.display='none';{% endif %}">
-	  {% include header.html %}
+    {% include header.html %}
     <div class="salon2"></div>
 
     <div class="twocols">
@@ -12,17 +13,28 @@
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12">
                         <header class="post-header">
-                          <span>Koffijberg</span>
+                          <span>Koffijberg{% if page.collection == 'collecties' %} collecties{% endif %}</span>
                           <h1 class="post-title">{{ page.title }}</h1>
                         </header>
             </div>
             <div class="col-sm-12 col-md-9 col-lg-8">
                                              
-                        {% if page.image %}<p><img src="{{ page.image }}" /></p>{% endif %}
+            {% if page.image %}<p><img src="{{ page.image }}" /></p>{% endif %}
+            {% for item in page.images %}
+                {% capture itemimagesize %}{{ item.image | size | minus:2 }}{% endcapture %}
+                {% if forloop.first %}<div class="row" id="gallery">{% endif %}
+                {% if itemimagesize contains '-' %}{% else %}
+                <div class="col-xs-3">
+                    <a href="{{ page.url }}?url={{ item.image }}" class="img"><img src="//images.weserv.nl/?url=www.koffijberg.nl{{ item.image }}&w=200&h=200&t=square&a=top" /></a>
+                </div>
+                {% endif %}
+                {% if forloop.last %}</div>{% endif %}
+            {% endfor %}
+            
                         <div class="post-content">
                         {{ content }}
 
-                        <p><a href="/#{% if page.collection == 'treatments' %}behandelingen{% else %}top{% endif %}">&larr; Back to the homepage</a></p>
+                        <p>{% if page.collection == 'collecties' %}<a href="/collecties/">&larr; Back to the collections</a>{% else %}<a href="/#{% if page.collection == 'treatments' %}behandelingen{% else %}top{% endif %}">&larr; Back to the homepage</a>{% endif %}</p>
                         </div>
 
             </div>
