@@ -60,15 +60,15 @@ This so-called ‘Bob hairstyle’ is very graphic, with its round facial shapes
 The model has a strong and rectangular face. By cutting her fringe a bit shorter and by using round cutting lines, you shorten the forehead and make her face look more oval shaped. With a wet-look, the round shapes disappear, but by applying structure, a soft appearance is maintained.
 Because of the strong lines in this hairstyle, a color was chosen that is not overly cool. If you would opt for a cool tone, the model would come across as cold. Contrast is created by combining a soft/warm hair color with strong lines. The hair has been blow-dried straight using a round brush, rolling the end of the layers inward in order to create a rounded shape. 
 
-## Het concept I-dentity
+## The I-dentity concept
 
-Volume, vorm, kleur en conditie van je haar zeggen veel over wie je bent of over wat je wilt uitstralen. Door je kapsel geef je een stukje van je identiteit prijs. Mooi haar versterkt ook je innerlijk. Het is bewezen dat er een direct verband is tussen je gevoel van eigenwaarde en (de reacties van anderen op) je haar. Daarom heeft Kimm Koffijberg I-dentity ontwikkeld: een totaaladvies voor een nieuwe haarkleur, een nieuw kapsel en bijpassende visagie. I-dentity kijkt verder dan een gezichtsvorm of huidskleur. Ook verder dan de laatste trends. Kapsel en visagie moeten volgens Kimm ook je identiteit en lifestyle in de volle breedte onderstrepen. I-dentity bestaat uit drie onderdelen: Style I-dentity (advies over kapsel en styling), Color I-dentity (haarkleuranalyse) en visagie.
+The volume, shape, color, and condition of your hair say a lot about who you are and what you want to show. Through your hairstyle, you reveal part of your identity. Beautiful hair strengthens you inside out. It has been shown that there is a direct relationship between your sense of self-worth and (responses of others to) your hairstyle.
 
-De kern van I-dentity is het uitvoerige gesprek tussen klant en daarvoor speciaal getrainde stylist. Tools als een vragenlijst, moodboards en kleurenkragen helpen om het gesprek te verdiepen en elkaar goed te begrijpen. Uiterlijk, wensen, sterke en zwakke punten en algehele lifestyle worden uitvoerig besproken. Evenals de aanleiding om een verandering te willen ondergaan.
+This is why Kimm Koffijberg developed I-dentity: Comprehensive advice about a new hair color, a hairstyle, and complementing makeup. I-dentity goes beyond facial shape or skin color, and even beyond the latest trends. According to Kimm, hairstyle and makeup need to broadly emphasize your identity and lifestyle. I-dentity consists of three core components: Style I-dentity (advice about hairstyle and styling), Color I-dentity (hair color analysis) and makeup.
 
-Op basis van alle informatie en de eigen indrukken komt de professional tot een heel persoonlijk I-dentity advies. Bedoeld als aanmoediging en ondersteuning voor de klant om een persoonlijke statement af te geven. En met de mogelijkheid voor de klant om zelfverzekerder en mooier door het leven te gaan.
+Characteristic of I-dentity is the elaborate interaction between the client and a trained stylist. Tools like a survey, mood boards, and color collars facilitate the conversation and ensure that client and hairdresser understand each other perfectly. Looks, wishes, strong and weak points, and overall lifestyle are discussed extensively – as well as the reason for wanting change. Based on all information and his or her own impressions, the professional arrives at a highly personalized I-dentity recommendation, intended as an encouragement and support for the client to make a personal statement: Creating the opportunity for the client to become her most self-confident and beautiful self.
 
-[BEKIJK FILM "VEERTIG JAAR KOFFIJBERG"](https://www.youtube.com/watch?v=oRKbYh74pRY)
+[WATCH THE MOVIE "40 YEARS KOFFIJBERG"](https://www.youtube.com/watch?v=oRKbYh74pRY)
 
 ## Producten
 
