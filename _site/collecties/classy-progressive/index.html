@@ -24,6 +24,81 @@
 	if (screen.width < 450) {
 	  document.getElementById("viewport").setAttribute("content", "width=450");
 	}
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+function setimage() {
+    var url = getParameterByName('url');
+    document.getElementById('lightbox').style.display = 'table';
+    document.getElementById('image').src = '//images.weserv.nl/?url=www.koffijberg.nl'+url+'&w=1000&h=1000';
+}
+function closeimage() {
+    document.location.href = '/collecties/classy-progressive/';
+}
+
+function goNext(e) {
+    if (!e)
+      e = window.event;
+
+    //IE9 & Other Browsers
+    if (e.stopPropagation) {
+      e.stopPropagation();
+    }
+    //IE8 and Lower
+    else {
+      e.cancelBubble = true;
+    }
+    var current,next;
+    var imgArray = new Array();
+    imgArray[0] = '/uploads/classy1.jpg';
+    imgArray[1] = '/uploads/classy2.jpg';
+    imgArray[2] = '/uploads/classy3.jpg';
+    imgArray[3] = '/uploads/classy4.jpg';
+    imgArray[4] = '/uploads/classy5.jpg';
+    imgArray[5] = '/uploads/classy6.jpg';
+    imgArray[6] = '/uploads/classy7.jpg';
+    imgArray[7] = '/uploads/classy8.jpg';
+    
+    for (i = 0; i < imgArray.length; i++) { 
+        if(getParameterByName('url')==imgArray[i]) current = i;
+    }
+    if(current<(imgArray.length-1)) next = (current+1);
+    else next = 0;
+    window.location = '/collecties/classy-progressive/?url='+imgArray[next];
+}
+function goPrev(e) {
+    if (!e)
+      e = window.event;
+
+    //IE9 & Other Browsers
+    if (e.stopPropagation) {
+      e.stopPropagation();
+    }
+    //IE8 and Lower
+    else {
+      e.cancelBubble = true;
+    }
+    var current,prev;
+    var imgArray = new Array();
+    imgArray[0] = '/uploads/classy1.jpg';
+    imgArray[1] = '/uploads/classy2.jpg';
+    imgArray[2] = '/uploads/classy3.jpg';
+    imgArray[3] = '/uploads/classy4.jpg';
+    imgArray[4] = '/uploads/classy5.jpg';
+    imgArray[5] = '/uploads/classy6.jpg';
+    imgArray[6] = '/uploads/classy7.jpg';
+    imgArray[7] = '/uploads/classy8.jpg';
+    
+    for (i = 0; i < imgArray.length; i++) { 
+        if(getParameterByName('url')==imgArray[i]) current = i;
+    }    
+    if(current>0) prev = (current-1);
+    else prev = (imgArray.length-1);
+    window.location = '/collecties/classy-progressive/?url='+imgArray[prev];
+}
 	</script>
 	<script type="text/javascript">
   var _gaq = _gaq || [];
@@ -42,8 +117,15 @@
 </head> 
 
 
-  <body class="page-template post">
-	  <header class="site-header">
+  <body id="body" class="page-template post" onload="if(getParameterByName('url')) setimage('url'); ">
+	  <div id="wrapall">
+<script>
+if(getParameterByName('url')) {
+    document.getElementById('wrapall').style.display='none';
+}
+</script>
+
+<header class="site-header">
       <nav class="navbar navbar-default">
         <div class="container">
 
@@ -217,7 +299,8 @@ VAT NL820928367B01 </p></div>
       </div>
 </div>
 </footer>
-
+</div>
+<div id="lightbox" style="width:100%;height:100%;" onclick="closeimage();" ><div style="display:table-cell;vertical-align:middle;"><div id="controls"><span onclick="goPrev(event); return false;" id="prevbutton">‹</span><span onclick="goNext(event); return false;" id="nextbutton">›</span></div><span id="closebutton">sluiten</span><img id="image" src="" /></div></div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
