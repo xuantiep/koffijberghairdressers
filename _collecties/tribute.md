@@ -33,11 +33,11 @@ Close attention was paid to what precisely suits the model, in terms of hair col
 
 ## Then
 
-Dit kapsel grijpt terug naar de jaren 70 (Farrah Fawcett), maar is ook goed draagbaar. Voor het haar is een en dezelfde basiskleur gebruikt.
+This hairstyle takes its inspiration from the 70s (Farrah Fawcett), but is also very wearable. For the hair, only one base color is used.
 
 ## Now
 
-Bij de rechthoekige gezichtsvorm van dit model is het volume laag in het haar aangebracht zodat het gezicht niet te breed of te lang wordt. Door de lagen die in het haar zijn geknipt, krijgt het haar meer volume en oogt het zacht. De natuurlijke haarkleur van het model is vrij donker, met het risico dat ze hard over kan komen. Kimm speelt met kleur (painting en balayage technieken) om de sterke punten van het model naar voren te halen. Ze maakt gebruik van de basiskleur en past een blonde kleur toe rond het gezicht. Hierdoor krijg je een zachte uitstraling. Naar achteren toe is het haar vrij donker gehouden omdat het model niet te vaak naar de kapper wil. Zo groeit de kleur natuurlijk uit. Door het haar te krullen word je je veel bewuster van de kleurseparatie in het haar, dit geeft contrast. Wil je een vloeibare beweging, dan borstel je het haar meer uit.
+Starting from the model’s squared facial shape, volume has been created in the lower parts of the hair to avoid her face becoming either too broad or too long. By cutting layers into the hair, the hair gets more volume and looks soft. The model’s natural hair color is rather dark, risking a ‘tough’ look. Kimm plays with color (painting and balayage techniques) to highlight the model’s strong points. She uses a base color and applies a shade of blond around the face. As a result, a soft look is created. Towards the back, the hair has been kept rather dark, as the model does not want to visit the hairdresser too often. Like this, the color grows out naturally. By curling the hair, you become more aware of the color separation in the hair. This creates contrast. If you want a flowing movement, you simply brush the hair more extensively. 
 
 <div class="row" id="gallery"><div class="col-xs-3"><img src="//images.weserv.nl/?url=www.koffijberg.nl/uploads/laurien.jpg&amp;w=200&amp;h=200&amp;t=square" /></div><div class="col-xs-3"><a class="img" href="/collecties/tribute/?url=/uploads/vj/vj2.jpg"><img src="//images.weserv.nl/?url=www.koffijberg.nl/uploads/vj/vj2.jpg&amp;w=200&amp;h=200&amp;t=square&amp;a=top" /></a></div><div class="col-xs-3"><a class="img" href="/collecties/tribute/?url=/uploads/vj/vj1.jpg"><img src="//images.weserv.nl/?url=www.koffijberg.nl/uploads/vj/vj1.jpg&amp;w=200&amp;h=200&amp;t=square&amp;a=top" /></a></div></div>
 
