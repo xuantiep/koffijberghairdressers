@@ -70,16 +70,16 @@ Characteristic of I-dentity is the elaborate interaction between the client and 
 
 [WATCH THE MOVIE "40 YEARS KOFFIJBERG"](https://www.youtube.com/watch?v=oRKbYh74pRY)
 
-## Producten
+## Products
 
-| Producten: | Keune Haircosmetics |
-| Kleur: | Ultimate Blond serie / Infinite Colors by Tinta Colors / So Pure Color Balance |
-| Verzorging: | So Pure Balance, Care Line |
+| Products: | Keune Haircosmetics |
+| Color: | Ultimate Blond serie / Infinite Colors by Tinta Colors / So Pure Color Balance |
+| Haircare: | So Pure Balance, Care Line |
 | Styling: | So Pure styling range, Blend, Design |
 
 ## Credits
 
-| Kapsels/kleurtechnieken: | Kimm Koffijberg and Creative team |
+| Hairstyles /coloring techniques: | Kimm Koffijberg and Creative team |
 | Creative team: | Kimm Koffijberg, Pim van der Lelij, Linda de Wit |
 | Fotografie: | Hans Mooijer |
 | Visagie: | Dominika Swietlink |
