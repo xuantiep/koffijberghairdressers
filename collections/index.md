@@ -4,4 +4,4 @@ layout: collecties
 ---
 
 
-Kimm ontwikkelt ieder halfjaar ook een eigen collectie voor Kapsalon Koffijberg waarin zij de door haar zelf ontwikkelde nieuwste kleur- en kniptechnieken toepast. Dit alles zorgt ervoor dat onze kappers en kapsters altijd uitstekend op de hoogte zijn van de allernieuwste vaktechnieken, trends en producten.
+Twice a year, Kimm also launches her own collection for Koffijberg Hairdressers, in which she applies the newest cutting- and coloring techniques, developed by herself. This ensures that all our hairdressers are optimally informed about the latest techniques, trends, and products.&nbsp;
