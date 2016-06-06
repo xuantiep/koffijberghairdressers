@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body class="page-template post">
+	  {% include header.html %}
+    <div class="salon2"></div>
+
+    <div class="twocols">
+      <div class="container">
+      <article class="">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                        <header class="post-header">
+                          <span>Koffijberg
+                          </span>
+                          <h1 class="post-title">{{ page.title }}</h1>
+                        </header>
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-8">
+                                             
+                        <div class="post-content">
+                            {{ content }}
+                            {% assign sitecollecties = (site.collecties | sort: 'date') | reverse %}
+                            {% for post in sitecollecties %}
+                                {% if forloop.index0 < 2 %}
+                                {% for item in post.images %}
+                                    {% capture itemimagesize %}{{ item.image | size | minus:2 }}{% endcapture %}
+                                    {% if forloop.first %}<div class="row" id="gallery">{% endif %}
+                                    {% if itemimagesize contains '-' %}{% else %}
+                                    <div class="col-xs-3">
+                                        <a href="{{ post.url }}" class="img"><img src="//images.weserv.nl/?url=www.koffijberg.nl{{ item.image }}&w=200&h=200&t=square&a=top" /></a>
+                                    </div>
+                                    {% endif %}
+                                    {% if forloop.last %}</div>{% endif %}
+                                {% endfor %}
+                                {% endif %}
+                            {% endfor %}
+                            
+                            {% assign sitecollecties = (site.collecties | sort: 'date') | reverse %}
+                            {% for post in sitecollecties %}
+                                <p style='margin:0; padding: 0;'><a href="{{ post.url }}">{{ post.title }}</a> - {% assign m = post.date | date: "%-m" %}
+                                  {% case m %}
+                                    {% when '1' %}January
+                                    {% when '2' %}February
+                                    {% when '3' %}March
+                                    {% when '4' %}April
+                                    {% when '5' %}May
+                                    {% when '6' %}June
+                                    {% when '7' %}July
+                                    {% when '8' %}August
+                                    {% when '9' %}September
+                                    {% when '10' %}October
+                                    {% when '11' %}November
+                                    {% when '12' %}December
+                                  {% endcase %}
+                                  {{ post.date | date: "%Y" }}</p>
+                            {% endfor %}
+                        </div>
+
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="hidden-xs hidden-sm col-md-3 col-lg-3">                         
+                        <div class="post-content">
+                              <div></div><p class="sidebar" style="float: right; margin-top: 7px;">{% include contactinfo.html %}</p>
+                        </div>
+            </div>
+          </div>
+                </article>
+      </div>
+    </div>
+
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

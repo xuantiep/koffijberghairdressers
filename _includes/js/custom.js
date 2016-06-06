@@ -102,8 +102,8 @@ $( document ).ready(function() {
 	//to remove position fixed
 	var iOS_version = iOSversion(useragent);
 	if(iOS_version[0]<5) $('body').addClass('old_iOS');
-	if(iOS_version[0]>6) $('body').addClass('new_iOS');
-
+	if(iOS_version[0]>4) $('body').addClass('new_iOS');
+	
 	//check for iOS 
 	//to remove background attachment fixed and animation
 	var iOS = /(iPad|iPhone|iPod)/g.test(useragent);
@@ -118,6 +118,7 @@ $( document ).ready(function() {
 	if(!$('body').hasClass('old_Android') && !$('body').hasClass('old_iOS')) {
 		if (get_cookie("splashshown")=="") $('#splash').show();
 	}
+	$('#nonsplash').show();
 	set_cookie('true');
 
     if(window.location.hash) {

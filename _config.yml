@@ -23,5 +23,8 @@ collections:
   treatments:
     output: true
     permalink: /behandelingen/:path/
+  collecties:
+    output: true
+    permalink: /collecties/:path/
 
 title: 'Koffijberg Hairdressers in Amsterdam'

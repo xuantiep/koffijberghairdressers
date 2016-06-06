@@ -1,7 +1,7 @@
 ladies:
   - item: 'Wash & Cut (45 min.)'
     prijs:
-      - stylist: € 39.00
+      - stylist: € 45
         topstylist: € 57.55
         masterstylist: € 63.85
     url: /behandelingen/wassen-knippen
