@@ -2,7 +2,7 @@
 title: Stéphanie
 naam: Stéphanie
 image: /img/2.-stephanie-master-stylist.jpg
-functie: 'Master-Stylist, Kleurspecialist & Salonmanager'
+functie: 'Master-Stylist, Colorspecialist & Salonmanager'
 order: 2
 ---
 
