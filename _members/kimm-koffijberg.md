@@ -2,7 +2,7 @@
 title: Kimm Koffijberg
 naam: Kimm
 image: '/img/1.-kimm-master-stylist,-kle.jpg'
-functie: 'Master-Stylist, Kleurspecialist en Eigenaar'
+functie: 'Master-Stylist, Colorspecialist and Owner'
 order: 1
 ---
 
