@@ -2,7 +2,7 @@
 title: Sabine
 naam: Sabine
 image: /img/17.-sabine-receptioniste.jpg
-functie: Receptie
+functie: Reception
 order: 25
 ---
 
