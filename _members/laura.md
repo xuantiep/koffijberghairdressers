@@ -2,7 +2,7 @@
 title: Laura
 naam: Laura
 image: /img/15.-laura-receptioniste.jpg
-functie: 'Receptie & Quality Manager'
+functie: 'Reception & Quality Manager'
 order: 20
 ---
 
