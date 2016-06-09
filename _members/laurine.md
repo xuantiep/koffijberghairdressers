@@ -2,7 +2,7 @@
 title: Laurine
 naam: Laurine
 image: /img/19.-laurine-receptioniste.jpg
-functie: Receptie
+functie: Reception
 order: 21
 ---
 
