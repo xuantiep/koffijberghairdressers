@@ -1,7 +1,9 @@
 ---
 title: Boëlle
-naam: Bethlehem
-image: /uploads/bethlehem-kapper-amsterdam-1.jpg
-functie: Top-Stylist
-order: 9
+naam: Boëlle
+image: /uploads/boelle-kapper-amsterdam.jpg
+functie: Junior-Stylist
+order: 20
 ---
+
+
