@@ -173,6 +173,12 @@ specials:
         topstylist: € 28.00
         masterstylist: € 28.00
     url:
+  - item: 'Eyebrow waxing/plucking & dyeing + Eyelashes dyeing'
+    prijs:
+      - stylist: € 38.00
+        topstylist: € 38.00
+        masterstylist: € 38.00
+    url:
 wash-massages:
   - item: Washmassage deluxe
     prijs:
