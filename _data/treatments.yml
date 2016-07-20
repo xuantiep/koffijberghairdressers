@@ -167,6 +167,12 @@ specials:
         topstylist: € 18.00
         masterstylist: € 18.00
     url:
+  - item: 'Eyebrow waxing/plucking & color'
+    prijs:
+      - stylist: € 28.00
+        topstylist: € 28.00
+        masterstylist: € 28.00
+    url:
 wash-massages:
   - item: Washmassage deluxe
     prijs:
