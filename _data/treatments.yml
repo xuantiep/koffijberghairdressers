@@ -179,6 +179,12 @@ specials:
         topstylist: € 38.00
         masterstylist: € 38.00
     url:
+  - item: Eyelashes dyeing
+    prijs:
+      - stylist: € 18.00
+        topstylist: € 18.00
+        masterstylist: € 18.00
+    url:
 wash-massages:
   - item: Washmassage deluxe
     prijs:
