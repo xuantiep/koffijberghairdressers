@@ -2,8 +2,8 @@
 title: Esmee
 naam: Esmee
 image: /uploads/esmee.jpg
-functie: Master en Kleurspecialist
-order: 9
+functie: 'Master-Stylist & Colorspecialist'
+order: 2
 ---
 
 
