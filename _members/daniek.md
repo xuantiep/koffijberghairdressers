@@ -2,7 +2,7 @@
 title: Daniek
 naam: Daniek
 image: /img/5.-daniek-top-stylist.jpg
-functie: Top-Stylist
+functie: Top-Stylist and Colorspecialist
 order: 6
 ---
 
