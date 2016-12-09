@@ -185,7 +185,7 @@ specials:
         topstylist: € 18.00
         masterstylist: € 18.00
     url:
-wash-massages:
+treatment-room:
   - item: Washmassage deluxe
     prijs:
       - stylist: € 53.00
