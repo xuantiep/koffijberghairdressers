@@ -130,8 +130,8 @@
                                   <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
                                   {% endfor %}
                               {% endfor %}
-                              <tr class="expand1"><td colspan="4"><br /><b>Wash massages</b></td></tr>
-                              {% for d in site.data.treatments.wash-massages %}
+                              <tr class="expand1"><td colspan="4"><br /><b>Treatment room</b></td></tr>
+                              {% for d in site.data.treatments.treatment-room %}
                                   {% for p in d.prijs %}
                                   <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
                                   {% endfor %}
