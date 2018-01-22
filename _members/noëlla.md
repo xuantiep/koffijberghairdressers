@@ -7,4 +7,3 @@ order: 26
 ---
 
 
-Zelf woon ik ook in Amsterdam-Zuid en ga hier ook naar school. De vriendin van mij moeder adviseerde mij stage te gaan lopen bij Koffijberg. Zij is zelf kapper en heeft vroeger ook in deze salon stage gelopen. Op vrijdag ben ik in de kapsalon aanwezig.&nbsp;&nbsp;
