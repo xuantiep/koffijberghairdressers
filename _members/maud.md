@@ -7,6 +7,6 @@ order: 9
 ---
 
 
-Vol passie en met liefde voor het kappersvak cre&euml;er ik graag de mooiste kapsels. Ik vind het belangrijk dat mijn klanten zich op hun gemak voelen in de kappersstoel en met een tevreden en voldaan gevoel de kapsalon verlaten. Naast kapper ben ik ook visagiste. Met mijn kwaliteiten hoop ik van uw 'onderhoudsbeurt' een verwenmoment te maken. Koffijberg Hairdressers geeft mij de kans om nieuwe uitdagingen aan te gaan. Daar ben ik trots op!
+&nbsp;
 
-*Availability: di / wo / vr / za*
+*Availability: Tue / Wed / Fri / Sat*
