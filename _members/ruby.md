@@ -7,4 +7,3 @@ order: 27
 ---
 
 
-De eerste keer dat ik de kapsalon binnenkwam was het voor een interview voor school. Voor mijn opleiding loop ik nu 1 dag stage op de Scheldestraat. Alle kappers van het team staan altijd klaar om je iets leren.&nbsp;&nbsp;
