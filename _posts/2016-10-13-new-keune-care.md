@@ -10,7 +10,7 @@ Keune Haircosmetics, the international professional haircare brand, announces th
 <br>Each Care product is rooted in Keune’s scientific heritage, which goes back to 1922. Formulas are enriched with the patented Essential Mineral Complex, developed according to long-established scientific practices and principles. This complex is proven to improve the condition of both scalp and hair and is made up of 5 different minerals that work together, treating and nourishing for unparalleled results.
 <br>Care products include shampoos, conditioner, hair masks, treatment lotions, and more. The range consists of ten different lines designed to tackle specific hair concerns:
 
-![](/uploads/versions/keune-care---koffijberg-kapper-amsterdam-1---x----300-214x---.jpg)
+![](/uploads1/versions/keune-care---koffijberg-kapper-amsterdam-1---x----300-214x---.jpg)
 
 THE CARE RANGE:
 <br>• Derma Activate to stimulate hair growth;

@@ -7,4 +7,4 @@ Keune Global Color Director, Kimm Koffijberg, knows color like no other. She’s
 
 On Sunday May 1, the winners of the Coiffure Award 2016 will be announced.
 
-![](/uploads/versions/coiffure-awards-kimm-kapper-amsterdam---x----640-640x---.jpg)
+![](/uploads1/versions/coiffure-awards-kimm-kapper-amsterdam---x----640-640x---.jpg)

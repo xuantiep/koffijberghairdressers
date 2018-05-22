@@ -7,7 +7,7 @@ THE STRENGTH IN TRANSFORMATION
 <br>
 <br>Change is beautiful. Whether it arrives by necessity or by choice, change makes you stronger and empowers you to move forward. Keune’s New Dawn Color Collection revels in transformation and recognizes that a new hair color is an empowering way to celebrate a next chapter. The 2017 color collection is inspired by strong, real women and their real-life journeys.&nbsp;
 
-![](/uploads/versions/combi-alle-beelden-met-tekst---x----734-1027x---.png)
+![](/uploads1/versions/combi-alle-beelden-met-tekst---x----734-1027x---.png)
 <br>NEW COLORS FOR NEW BEGINNINGS
 <br>
 <br>The New Dawn Color Collection ranges from natural tints to bold statement colors, and features five brand-new shades and one innovative product. Meet the hues and the real women who inspired them:
