@@ -49,7 +49,7 @@
                           <h1 class="post-title editable">Leading hairdresser in Amsterdam</h1>
                         </header>
                       
-                        <div class="post-content"><div class="editable"><p>In the past, Koffijberg Hairdressers has won, amongst others, the Global Salon Business Award and, in 2013, the Coiffure Award. Our hairdressers have been acknowledged by the industry through a variety of awards. For over 40 years, our trendsetting approach stands for craftsmanship, creativity, and innovation in haircuts, colors, and styling. Our hairdressers excel in their technical skills and dedicated approach to their clients. <a href="/about/index.html">Read more...</a></p></div>
+                        <div class="post-content"><div class="editable"><p>In the past, <a href="https://photos.google.com/share/AF1QipOJti8OeHzM6kd3MyzHAuHhZ-PtFqGDrupw9_zhqss0avv0DzEDnDC_80w-rfqRGA?key=MWNIVkpya2Y1U3JJN0FGMW5tbXJlaVkxYjhJZjZR">Koffijberg Hairdressers</a> has won, amongst others, the Global Salon Business Award and, in 2013, the Coiffure Award. Our hairdressers have been acknowledged by the industry through a variety of awards. For over 40 years, our trendsetting approach stands for craftsmanship, creativity, and innovation in haircuts, colors, and styling. Our hairdressers excel in their technical skills and dedicated approach to their clients. <a target="_blank" href="/about/index.html">Read more...</a></p></div>
                               <a href="/collections" class="btn btn-primary">Our collections</a>
                         </div>
                       
@@ -91,55 +91,55 @@
                               <tr><td><b>Women</b></td><td class="text-center"><b>Stylist</b></td><td class="text-center"><b>Top-Stylist</b></td><td class="text-center"><b>Master-Stylist<sup>1</sup></b></td></tr>
                               {% for d in site.data.treatments.ladies %}
                                   {% for p in d.prijs %}
-                                  <tr><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  <tr><td>{% if d.treatment != '' %}<a href="{{ d.treatment }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
                                   {% endfor %}
                               {% endfor %}
                               <tr><td colspan="4"><br /><b>Men</b></td></tr>
                               {% for d in site.data.treatments.gents %}
                                   {% for p in d.prijs %}
-                                  <tr><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  <tr><td>{% if d.treatment != '' %}<a href="{{ d.treatment }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
                                   {% endfor %}
                               {% endfor %}
                               <tr><td colspan="4"><br /><b>Children / adolescents / students<sup>2</sup></b></td></tr>
                               {% for d in site.data.treatments.discounts %}
                                   {% for p in d.prijs %}
-                                  <tr><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  <tr><td>{% if d.treatment != '' %}<a href="{{ d.treatment }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
                                   {% endfor %}
                               {% endfor %}
                               <tr class="expand1"><td colspan="4"><br /><b>Color<sup>3</sup></b></td></tr>
                               {% for d in site.data.treatments.colorings %}
                                   {% for p in d.prijs %}
-                                  <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  <tr class="expand1"><td>{% if d.treatment != '' %}<a href="{{ d.treatment }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
                                   {% endfor %}
                               {% endfor %}
                               <tr class="expand1"><td colspan="4"><br /><b>Blow-dry-area</b></td></tr>
                               {% for d in site.data.treatments.blow-dry %}
                                   {% for p in d.prijs %}
-                                  <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  <tr class="expand1"><td>{% if d.treatment != '' %}<a href="{{ d.treatment }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
                                   {% endfor %}
                               {% endfor %}
                               <tr class="expand1"><td colspan="4"><br /><b>Wash blow-dry</b></td></tr>
                               {% for d in site.data.treatments.wash-and-dry %}
                                   {% for p in d.prijs %}
-                                  <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  <tr class="expand1"><td>{% if d.treatment != '' %}<a href="{{ d.treatment }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
                                   {% endfor %}
                               {% endfor %}
-                              <tr class="expand1"><td colspan="4"><br /><b>Specials</b></td></tr>
+                              <tr class="expand1"><td colspan="4"><br /><b>Beauty area</b></td></tr>
                               {% for d in site.data.treatments.specials %}
                                   {% for p in d.prijs %}
-                                  <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  <tr class="expand1"><td>{% if d.treatment != '' %}<a href="{{ d.treatment }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
                                   {% endfor %}
                               {% endfor %}
-                              <tr class="expand1"><td colspan="4"><br /><b>Wash massages</b></td></tr>
-                              {% for d in site.data.treatments.wash-massages %}
+                              <tr class="expand1"><td colspan="4"><br /><b>Treatment room</b></td></tr>
+                              {% for d in site.data.treatments.treatment-room %}
                                   {% for p in d.prijs %}
-                                  <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  <tr class="expand1"><td>{% if d.treatment != '' %}<a href="{{ d.treatment }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
                                   {% endfor %}
                               {% endfor %}
                               <tr class="expand1"><td colspan="4"><br /><b>Extensions<sup>4</sup></b></td></tr>
                               {% for d in site.data.treatments.extensions %}
                                   {% for p in d.prijs %}
-                                  <tr class="expand1"><td>{% if d.url != '' %}<a href="{{ d.url }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
+                                  <tr class="expand1"><td>{% if d.treatment != '' %}<a href="{{ d.treatment }}">{{ d.item }}</a>{% else %}{{ d.item }}{% endif %}</td><td class="text-center">{{ p.stylist }}</td><td class="text-center">{{ p.topstylist }}</td><td class="text-center">{{ p.masterstylist }}</td></tr>
                                   {% endfor %}
                               {% endfor %}
                               </table><br />

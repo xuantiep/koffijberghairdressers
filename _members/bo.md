@@ -1,9 +1,9 @@
 ---
 title: Bo
 naam: Bo
-image: /img/8.-bo-junior-stylist.jpg
-functie: Junior-Stylist
-order: 11
+image: /img/profielfotos/IMG_0360_0000s_0006_Layer 11.jpg
+functie: Stylist
+order: 10
 ---
 
 

@@ -1,8 +1,8 @@
 ---
 title: Philine
 naam: Philine
-image: /img/13.-philine-junior-stylist.jpg
-functie: Junior Stylist
+image: /img/profielfotos/IMG_0360_0000s_0005_Layer 12.jpg
+functie: Stylist
 order: 11
 ---
 

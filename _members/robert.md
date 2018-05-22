@@ -1,10 +1,9 @@
 ---
 title: Robert
 naam: Robert
-image: /img/21.-robert-office-manager-e.jpg
-functie: 'Eigenaar & Office manager'
+image: /img/profielfotos/IMG_0360_0000s_0001_Layer 16.jpg
+functie: Eigenaar & Office manager
 order: 40
 ---
 
 
-Available*: ma / di / wo / do / vr*

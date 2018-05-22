@@ -1,237 +1,291 @@
 ladies:
   - item: 'Wash & Cut (45 min.)'
     prijs:
-      - stylist: € 45
-        topstylist: € 57.55
-        masterstylist: € 63.85
-    url: /behandelingen/wassen-knippen
+      - stylist: € 46.40
+        topstylist: € 59.30
+        masterstylist: € 65.75
+    treatment: wassen-knippen
   - item: 'Wash, Cut & Styling (60 min.)'
     prijs:
-      - stylist: € 49.15
-        topstylist: € 68.00
-        masterstylist: € 75.20
-    url: /behandelingen/wassen-knippen-drogen
+      - stylist: € 50.75
+        topstylist: € 70.00
+        masterstylist: € 77.25
+    treatment: wassen-knippen-drogen
   - item: 'Wash, Cut & Blow-Dry (60 min.)'
     prijs:
-      - stylist: € 56.05
-        topstylist: € 74.60
-        masterstylist: € 82.50
-    url: /behandelingen/wassen-knippen-fohnen
+      - stylist: € 57.75
+        topstylist: € 76.85
+        masterstylist: € 85
+    treatment: wassen-knippen-fohnen
   - item: 'Wash, Cut & Blow-Dry Medium-Long Hair (75 min.)'
     prijs:
-      - stylist: € 66.75
-        topstylist: € 87.90
-        masterstylist: € 96.00
-    url: /behandelingen/wassen-knippen-fohnen-middel-lang-haar
+      - stylist: € 68.75
+        topstylist: € 90.50
+        masterstylist: € 98.90
+    treatment: wassen-knippen-fohnen-middel-lang-haar
   - item: 'Wash, Cut & Blow-Dry Long Hair (90 min.)'
     prijs:
-      - stylist: € 72.85
-        topstylist: € 101.40
-        masterstylist: € 109.50
-    url: /behandelingen/wassen-knippen-fohnen-lang-haar
+      - stylist: € 75.00
+        topstylist: € 104.50
+        masterstylist: € 112.85
+    treatment: wassen-knippen-fohnen-lang-haar
 gents:
   - item: 'Wash & Cut'
     prijs:
-      - stylist: € 43.25
-        topstylist: € 50.00
-        masterstylist: € 56.35
-    url: /behandelingen/wassen-knippen
+      - stylist: € 44.75
+        topstylist: € 51.50
+        masterstylist: € 58.25
+    treatment: wassen-knippen
 discounts:
   - item: up to 12 years
     prijs:
-      - stylist: € 29.25
-        topstylist: € 33.50
+      - stylist: € 30.25
+        topstylist: € 34.50
         masterstylist: n.v.t.
-    url: ''
+    treatment:
   - item: 'up to 20 years & students'
     prijs:
-      - stylist: '20% korting'
-        topstylist: '20% korting'
+      - stylist: 20% korting
+        topstylist: 20% korting
         masterstylist: n.v.t.
-    url: ''
+    treatment:
 colorings:
   - item: coloration
     prijs:
-      - stylist: € 62.75
-        topstylist: € 62.75
-        masterstylist: € 68.00
-    url: ''
+      - stylist: € 64.75
+        topstylist: € 64.75
+        masterstylist: € 70.00
+    treatment:
   - item: coloration + Streaks effect
     prijs:
-      - stylist: € 99.75
-        topstylist: € 99.75
-        masterstylist: € 109.80
-    url: ''
+      - stylist: € 102.75
+        topstylist: € 102.75
+        masterstylist: € 113.25
+    treatment:
   - item: coloration+ Streaks
     prijs:
-      - stylist: € 132.95
-        topstylist: € 132.95
-        masterstylist: € 144.45
-    url: ''
+      - stylist: € 136.90
+        topstylist: € 136.90
+        masterstylist: € 148.80
+    treatment:
   - item: coloration+ Streaks Long-Hair
     prijs:
-      - stylist: € 148.80
-        topstylist: € 148.80
-        masterstylist: € 162.80
-    url: ''
+      - stylist: € 153.25
+        topstylist: € 153.25
+        masterstylist: € 167.75
+    treatment:
   - item: Highlights half head
     prijs:
-      - stylist: € 65.45
-        topstylist: € 65.45
-        masterstylist: € 73.30
-    url: ''
+      - stylist: € 67.50
+        topstylist: € 67.50
+        masterstylist: € 75.50
+    treatment:
   - item: Highlights whole head
     prijs:
-      - stylist: € 99.65
-        topstylist: € 99.65
-        masterstylist: € 109.80
-    url: ''
+      - stylist: € 102.75
+        topstylist: € 102.75
+        masterstylist: € 113.25
+    treatment:
   - item: freehand technique half head
     prijs:
-      - stylist: n.v.t.
-        topstylist: € 132.40
-        masterstylist: € 145.50
-    url: ''
+      - stylist: € 137.50
+        topstylist: € 137.50
+        masterstylist: € 150.90
+    treatment:
   - item: freehand technique whole head
     prijs:
-      - stylist: n.v.t.
-        topstylist: € 184.20
-        masterstylist: € 200.20
-    url: ''
+      - stylist: € 190.70
+        topstylist: € 190.70
+        masterstylist: € 207.25
+    treatment:
   - item: freehand technique long hair
     prijs:
-      - stylist: n.v.t.
-        topstylist: € 198.75
-        masterstylist: € 217.70
-    url: ''
+      - stylist: € 205.80
+        topstylist: € 205.80
+        masterstylist: € 225.25
+    treatment:
   - item: Discoloration / Ultimate blond
     prijs:
-      - stylist: € 77.65
-        topstylist: € 77.65
-        masterstylist: € 84.35
-    url: ''
+      - stylist: € 80.00
+        topstylist: € 80.00
+        masterstylist: € 86.90
+    treatment:
   - item: Other treatments on request
     prijs:
-      - stylist: ''
-        topstylist: ''
-        masterstylist: ''
-    url: ''
+      - stylist:
+        topstylist:
+        masterstylist:
+    treatment:
 blow-dry:
   - item: Normal (30 min)
     prijs:
       - stylist: € 30.00
         topstylist: € 30.00
         masterstylist: n.v.t.
-    url: ''
+    treatment:
   - item: Premium for long hair (per 15 min.)
     prijs:
-      - stylist: € 15.00
-        topstylist: € 15.00
+      - stylist: € 16.00
+        topstylist: € 16.00
         masterstylist: n.v.t.
-    url: ''
+    treatment:
 wash-and-dry:
   - item: 'Wash & Blow-dry'
     prijs:
-      - stylist: € 30
-        topstylist: € 33.50
-        masterstylist: € 37.65
-    url: ''
+      - stylist: € 30.75
+        topstylist: € 34.50
+        masterstylist: € 38.75
+    treatment:
   - item: 'Wash & Blow-dry medium-long hair'
     prijs:
-      - stylist: € 48.80
-        topstylist: € 53.65
-        masterstylist: € 59.00
-    url: ''
+      - stylist: € 50.50
+        topstylist: € 55.30
+        masterstylist: € 60.80
+    treatment:
   - item: 'Wash & Blow-dry long hair'
     prijs:
-      - stylist: € 56.10
-        topstylist: € 61.70
-        masterstylist: € 67.90
-    url: ''
+      - stylist: € 57.75
+        topstylist: € 63.70
+        masterstylist: € 69.95
+    treatment:
 specials:
   - item: I-dentity (metamorphosis)
     prijs:
       - stylist: n.v.t.
         topstylist: € 210.00
         masterstylist: € 223.00
-    url: /behandelingen/i-dentity
+    treatment: i-dentity
   - item: Complete make-up
     prijs:
       - stylist: n.v.t.
         topstylist: € 56.90
         masterstylist: € 56.90
-    url: ''
-wash-massages:
-  - item: Washmassage deluxe
+    treatment:
+  - item: Eyebrow waxing/plucking
     prijs:
-      - stylist: € 53.00
-        topstylist: '€ 53,00'
+      - stylist: € 18.50
+        topstylist: € 18.50
+        masterstylist: € 18.50
+    treatment:
+  - item: 'Eyebrow waxing/plucking & dyeing'
+    prijs:
+      - stylist: € 28.50
+        topstylist: € 28.50
+        masterstylist: € 28.50
+    treatment:
+  - item: 'Eyebrow waxing/plucking & dyeing + Eyelashes dyeing'
+    prijs:
+      - stylist: € 36.75
+        topstylist: € 36.75
+        masterstylist: € 36.75
+    treatment:
+  - item: Eyebrow waxing/plucking + Eyelashes dyeing
+    prijs:
+      - stylist: € 28.00
+        topstylist: € 28.00
+        masterstylist: € 28.00
+    treatment:
+treatment-room:
+  - item: Keune SoPure Ritueel
+    prijs:
+      - stylist: € 37.50
+        topstylist: € 37.50
         masterstylist: n.v.t.
-    url: ''
+    treatment:
+  - item: Keune Care Ritueel
+    prijs:
+      - stylist: € 37.50
+        topstylist: € 37.50
+        masterstylist: n.v.t.
+    treatment:
+  - item: Kerastase Hoofdhuid Ritueel
+    prijs:
+      - stylist: € 32.50
+        topstylist: € 32.50
+        masterstylist: n.v.t.
+    treatment:
+  - item: Kerastase Beschadigd haar Ritueel
+    prijs:
+      - stylist: € 32.50
+        topstylist: € 32.50
+        masterstylist: n.v.t.
+    treatment:
+  - item: Kerastase Fusio-Dose Ritueel
+    prijs:
+      - stylist: € 37.50
+        topstylist: € 37.50
+        masterstylist: n.v.t.
+    treatment:
+  - item: Kerastase Fluidealiste Ritueel
+    prijs:
+      - stylist: € 50.00
+        topstylist: € 50.00
+        masterstylist: n.v.t.
+    treatment:
 extensions:
   - item: Balmain Longueur plus
     prijs:
       - stylist: € 80.00
         topstylist: € 80.00
         masterstylist: € 80.00
-    url: ''
+    treatment:
   - item: Balmain Ponytail (including application)
     prijs:
       - stylist: € 49.95
         topstylist: € 49.95
         masterstylist: € 49.95
-    url: ''
+    treatment:
   - item: Balmain Ponytail Ombé  (including application)
     prijs:
       - stylist: € 59.95
         topstylist: € 59.95
         masterstylist: € 59.95
-    url: ''
+    treatment:
   - item: Balmain Hairdress 40cm (including application)
     prijs:
       - stylist: € 199.00
         topstylist: € 199.00
         masterstylist: € 199.00
-    url: ''
+    treatment:
   - item: Balmain Hairdress 55cm  (including application)
     prijs:
       - stylist: € 355.00
         topstylist: € 355.00
         masterstylist: € 355.00
-    url: ''
+    treatment:
   - item: Balmain Systeme Volume 25cm (per strip)
     prijs:
       - stylist: € 19.95
         topstylist: € 19.95
         masterstylist: € 19.95
-    url: ''
+    treatment:
   - item: Balmain B-loved  (including application)
     prijs:
       - stylist: € 59.95
         topstylist: € 59.95
         masterstylist: € 59.95
-    url: ''
+    treatment:
   - item: Balmain Volume Supérieur  (including application)
     prijs:
       - stylist: € 59.95
         topstylist: € 59.95
         masterstylist: € 59.95
-    url: ''
+    treatment:
   - item: Balmain Double hair 3st. (including application)
     prijs:
       - stylist: € 187.00
         topstylist: € 187.00
         masterstylist: € 187.00
-    url: ''
+    treatment:
   - item: Balmain Systeme Volume 40cm (per strip)
     prijs:
       - stylist: € 29.95
         topstylist: € 29.95
         masterstylist: € 29.95
-    url: ''
+    treatment:
   - item: Balmain Systeme Volume 60cm (per strip)
     prijs:
       - stylist: € 39.95
         topstylist: € 39.95
         masterstylist: € 39.95
-    url: ''
+    treatment:

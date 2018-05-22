@@ -1,10 +1,12 @@
 ---
 title: Daniek
 naam: Daniek
-image: /img/5.-daniek-top-stylist.jpg
-functie: Top-Stylist
+image: /img/profielfotos/kapper-daniek-amsterdam-1.jpg
+functie: Master-Stylist and Colorspecialist
 order: 6
 ---
 
 
-Available*: ma / do / vr / za*
+&nbsp;
+
+*Availability: Mon / Thur / Fri / Sat*

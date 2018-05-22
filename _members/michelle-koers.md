@@ -1,9 +1,9 @@
 ---
 title: Michelle
 naam: Michelle
-image: /img/14.-michelle-receptioniste.jpg
+image: /img/profielfotos/IMG_0360_0000s_0004_Layer 13.jpg
 functie: Receptie
-order: 23
+order: 32
 ---
 
 
