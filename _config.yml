@@ -23,7 +23,7 @@ collections:
   treatments:
     output: true
     permalink: /treatments/:path/
-  collections:
+  collecties:
     output: true
     permalink: /collections/:path/
 
