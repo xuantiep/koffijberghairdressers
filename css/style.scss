@@ -111,7 +111,7 @@ body.iOS .salon3 {background-attachment: scroll;}
 .twocols .post-content table {color: #666; margin-bottom: 2em;}
 .twocols .post-content td {padding-right: 30px;}
 .twocols .post-header {padding-top: 90px;}
-.twocols .sidebar, .behandelingen .sidebar {border-left: 1px dotted silver; padding-left: 25px; padding-bottom: 2px;}
+.twocols .sidebar, .treatments .sidebar {border-left: 1px dotted silver; padding-left: 25px; padding-bottom: 2px;}
 
 .post .twocols .post-header h1 {font-size: 60px; margin-top: 5px;}
 .post .twocols .post-header span {font-size: 22px; text-transform: uppercase; font-weight: 400;}
@@ -125,15 +125,15 @@ body.iOS .salon3 {background-attachment: scroll;}
     font-weight: 400;
 }
 
-.behandelingen {padding: 90px 0; background: white; color: $accentkleur;}
-.behandelingen .post-content p {color: #666; margin-bottom: 0;}
-.behandelingen .post-content p.smaller {font-size: 12px; line-height: 1.7em;}
-.behandelingen .expand1 {display: none;}
-.behandelingen #expand1 {position: relative; bottom: 7px;}
-.behandelingen table {width: 100%; color: #666;}
-.behandelingen td {padding: 3px 0; font-size: 15px; line-height: 1.7em;}
-.behandelingen td.text-center {padding-left: 15px; padding-right: 15px;}
-.behandelingen td a {text-decoration: none; color: #666;}
+.treatments {padding: 90px 0; background: white; color: $accentkleur;}
+.treatments .post-content p {color: #666; margin-bottom: 0;}
+.treatments .post-content p.smaller {font-size: 12px; line-height: 1.7em;}
+.treatments .expand1 {display: none;}
+.treatments #expand1 {position: relative; bottom: 7px;}
+.treatments table {width: 100%; color: #666;}
+.treatments td {padding: 3px 0; font-size: 15px; line-height: 1.7em;}
+.treatments td.text-center {padding-left: 15px; padding-right: 15px;}
+.treatments td a {text-decoration: none; color: #666;}
 
 footer p {margin: 0; font-family: 'PT Serif', serif; font-weight: 400; font-size: 15px; line-height: 2em;}
 footer a, footer a:hover, footer a:focus {color: white;}
@@ -376,7 +376,7 @@ label {font-weight: normal;}
 #controls a:hover, #controls a:active {color: silver;}
 
 @media all and (max-width: 1199px) {
-.behandelingen .sidebar {padding-left: 0!important; border-left: 0!important;}
+.treatments .sidebar {padding-left: 0!important; border-left: 0!important;}
 }
 
 @media all and (max-width: 991px) {

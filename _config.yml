@@ -22,9 +22,11 @@ collections:
     permalink: /team/:path/
   treatments:
     output: true
-    permalink: /behandelingen/:path/
-  collecties:
+    permalink: /treatments/:path/
+  collections:
     output: true
-    permalink: /collecties/:path/
+    permalink: /collections/:path/
 
 title: 'Koffijberg Hairdressers in Amsterdam'
+url: https://www.koffijberghairdressers.com
+twitter_url: https://twitter.com/KoffijbergHair
