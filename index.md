@@ -9,4 +9,4 @@ highlights:
     text: Are you considering a new hairstyle? Would you like to update your look to suit your lifestyle? Then visit our salon. We are renowned for our high quality haircuts and color treatments. You can find our biannual collections in national as well as international magazines. We will make sure that your new hairstyle and color strengthen each other and boost your look.
 ---
 
-Topkapper in Amsterdam die garant staat voor persoonlijk advies, prachtige haarkleuringen, service, kwaliteit en vakmanschap. Kapsalon Koffijberg heeft in het verleden onder andere de Global Salon Business Award gewonnen en was in 2013 winnaar van de Coiffure Award. Onze kappers en kapsters krijgen ook veel erkenning uit de branche in de vorm van andere prijzen. 
+High-end hairdresser in Amsterdam that stands for personal advice, beautiful colorings, service, quality, and craftsmanship. Over the past years, Koffijberg Hairdressers has won, amongst others, the Global Salon Business Award and the Coiffure Award (2013). Our hairdressers are also often recognized for their work by the industry, having received several other prizes.
