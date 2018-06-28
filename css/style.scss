@@ -1,9 +1,8 @@
 ---
 ---
-
 $accentkleur: #241a1f;
 $tekstkleur_op_accent: white;
-$basiskleur: #403732;
+$basiskleur: #241a1f;
 $tekstkleur_op_basis: white;
 $highlightkleur: #5e2d83;
 
@@ -61,7 +60,7 @@ html * {max-height:1000000px;}
 img {max-width: 100%;}
 
 html {overflow-y: scroll;}
-body {color: $tekstkleur_op_basis; background: $basiskleur; font-family: 'PT Sans Narrow', sans-serif; font-weight: 700; font-size: 17px; line-height: 1.4em;}
+body {color: $tekstkleur_op_basis; background: #3b2c33; font-family: 'PT Sans Narrow', sans-serif; font-weight: 700; font-size: 17px; line-height: 1.4em;}
 body.iOS .salon, 
 body.iOS .salon2,
 body.iOS .salon3 {background-attachment: scroll;}
@@ -73,10 +72,121 @@ body.iOS .salon3 {background-attachment: scroll;}
 
 #review {visibility: hidden; position: absolute; left: 0; top: 660px; z-index: 1;}
 
-.intro {height: 800px;}
-.intro.dames > div {background: url('../img/kapper-amsterdam-dames.jpg') center top no-repeat; height: 800px; }
-.intro.heren > div {background: url('../img/kapper-amsterdam-heren.jpg') center top no-repeat; height: 800px; }
-.intro.koffijberg > div {background: url('../img/kapper-amsterdam-koffijberg.jpg') center top no-repeat; height: 800px; }
+.visualnews a, .visualnews p a:hover {text-decoration: none;}
+.visualnews p a {text-decoration: underline;}
+.visualnews h3 a {color: #241a1f;}
+.visualnews .btn-primary {color: white !important; border: 1px solid $highlightkleur !important; background: $highlightkleur!important;}
+.visualnews .btn-primary:hover {border: 1px solid $accentkleur!important; background: $accentkleur!important;}
+.visualnews a.btn-default {color: #241a1f;}
+.visualnews a.btn-default:hover, .visualnews a.btn-default:focus {color: white;}
+.visualnews p {margin-bottom: 20px;}
+.visualnews img {min-width: 100%;}
+.visualnews h3 {
+  margin-bottom: 13px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+#newsarchive .post-content {-webkit-column-count: 2; -moz-column-count: 2; column-count: 2;}
+@media (max-width: 991px) {
+#newsarchive .post-content {-webkit-column-count: 1; -moz-column-count: 1; column-count: 1;}
+}
+#newsarchive h2 {
+  padding-top: 50px;
+  color: #241a1f;
+  text-transform: uppercase;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+#newsarchive,#newsarchive a {color: #666;}
+
+
+#popup {display: none; position: fixed; top: 0; left: 0; background: rgba(0,0,0,0.5); z-index: 99; cursor: pointer;}
+#popup, #popup td {height: 100%; width: 100%; text-align: center; vertical-align: middle; padding: 20px;}
+#popup td > div {max-width: 1000px; background: white; margin: 0 auto; box-shadow: 0px 0px 0px 7px rgba(0,0,0,0.3); cursor: default; background: white;}
+#popup div .close {position: absolute; right: 15px; background: transparent; z-index: 99;}
+@media (min-width: 1055px) {
+  #popup div .close {right: auto; margin-left: 965px;}
+}
+#popup div .close a {
+    background: #000; color: white; font-size: 9px; text-decoration: none; 
+    border-radius: 20px; height: 40px; width: 40px; line-height: 34px; display: inline-block; 
+    text-align: center; position: relative; left: 15px; bottom: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+#popup div.popupcontent {color: #241a1f; padding: 55px 0 20px 5px;}
+#popup div.popupcontent.large_text {line-height: 1.3em; font-size: 150%;}
+#popup div.popupcontent a {
+    text-shadow: none;
+    background: $highlightkleur;
+    padding: 6px 12px; display: inline-block;
+    color: white; text-decoration: none; padding-left: 25px; padding-right: 25px; border-radius: 0; 
+    border: 0; font-family: 'PT Sans Narrow', sans-serif; font-weight: 700; font-size: 17px; text-transform: uppercase;
+    -webkit-transition: all 0.2s ease;                  
+    -moz-transition: all 0.2s ease;                 
+    -o-transition: all 0.2s ease;   
+    -ms-transition: all 0.2s ease;          
+    transition: all 0.2s ease;
+}
+#popup .videoWrapper {padding-bottom: 56.3%; /*custom */}
+
+#not_sharethis > div {
+    position: relative;
+    right: 0;
+    -webkit-transition: right 0.2s ease;                  
+    -moz-transition: right 0.2s ease;                 
+    -o-transition: right 0.2s ease;   
+    -ms-transition: right 0.2s ease;          
+    transition: right 0.2s ease;  
+    line-height: 40px; 
+}
+#not_sharethis {position: fixed; top: 50%; height: 246px; margin-top: -123px; right: -50px; height: 164px; margin-top: -88px;}
+#not_sharethis > div:hover {position: relative; right: 50px;}
+#not_sharethis.post > div:hover {right: 0;}
+#not_sharethis.post {position: relative; top: auto; height: auto; margin-top: 0; right: 0;}
+#not_sharethis div {background: #241a1f; text-align: left; width: 90px; height: 40px; color: white; border-bottom: 1px solid rgba(255,255,255,0.25);}
+#not_sharethis > div > div {background: transparent; font-size: 12px; line-height: 32px;  width: 40px; float: left; text-align: center;}
+#not_sharethis.post div {float: left; width: 40px; border-bottom: 0; border-right: 1px solid rgba(255,255,255,0.25);}
+#not_sharethis h3 {padding-top: 30px; font-family: 'PT Sans Narrow', sans-serif; font-weight: 700; font-size: 17px; text-transform: uppercase;}
+#not_sharethis div:last-child{border-bottom: 0;}
+#not_sharethis div:hover {cursor: pointer;}
+#not_sharethis > div.facebook > div, #not_sharethis > div.pinterest > div {line-height: 35px;}
+#not_sharethis div.facebook:hover {background: #3B5998;}
+#not_sharethis div.twitter:hover {background: #55ACEE;}
+#not_sharethis div.linkedin:hover {background: #0077b5;}
+#not_sharethis div.pinterest:hover {background: #CB2027;}
+#not_sharethis div.gplus:hover {background: #dd4b39;}
+#not_sharethis div.mail:hover {background: #7D7D7D;}
+#not_sharethis div.instagram:hover {background: #C73B92;}
+#not_sharethis > div.instagram > div {line-height: 32px;}
+
+
+
+#likeournews {padding: 20px; background: $highlightkleur; color: white; margin-bottom: 30px;}
+#likeournews form {float: right; padding-right: 0; margin-top: -4px;}
+#likeournews input[type='submit'] {vertical-align: top; display: inline-block; background: #241a1f!important; border: 1px solid #241a1f!important;}
+#likeournews input[type='submit']:hover {background: $highlightkleur!important; border: 1px solid white!important;}
+#likeournews input[type='email'] {font-size: 15px; background: rgba(255,255,255,1); color: #241a1f; vertical-align: top; height: 38px; display: inline-block; width: 300px; border-radius: 0; border: 0;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+.intro {height: 800px; color: #444;}
+.intro .btn:hover {color: #241a1f;}
+.intro .btn, .intro h1 {color: #241a1f;}
+.intro .btn-primary {color: white;}
+.intro.image1 > div {background: #bbb9c5 url('../img/kapper-amsterdam-koffijberg1.jpg') center top no-repeat; height: 800px; }
+.intro.image2 > div {background: #bbb9c5 url('../img/kapper-amsterdam-koffijberg2.jpg') center top no-repeat; height: 800px; }
+.intro.image3 > div {background: #bbb9c5 url('../img/kapper-amsterdam-koffijberg3.jpg') center top no-repeat; height: 800px; }
+.intro.image4 > div {background: #bbb9c5 url('../img/kapper-amsterdam-koffijberg4.jpg') center top no-repeat; height: 800px; }
+.intro.image5 > div {background: #bbb9c5 url('../img/kapper-amsterdam-koffijberg5.jpg') center top no-repeat; height: 800px; }
+.intro.image6 > div {background: #bbb9c5 url('../img/kapper-amsterdam-koffijberg6.jpg') center top no-repeat; height: 800px; }
+.intro.image7 > div {background: #bbb9c5 url('../img/kapper-amsterdam-koffijberg7.jpg') center top no-repeat; height: 800px; }
+.intro.image8 > div {background: #bbb9c5 url('../img/kapper-amsterdam-koffijberg8.jpg') center top no-repeat; height: 800px; }
+.intro.image9 > div {background: #bbb9c5 url('../img/kapper-amsterdam-koffijberg9.jpg') center top no-repeat; height: 800px; }
+
+.intro.koffijberg > div {background: #bbb9c5 url('../img/kapper-amsterdam-koffijberg1.jpg') center top no-repeat; height: 800px; }
 .intro .highlight {text-align: center; padding: 80px 15px 0;}
 .intro .highlight table {height: 720px;}
 .intro .highlight article {display: none;}
@@ -88,7 +198,8 @@ body.iOS .salon3 {background-attachment: scroll;}
 .about .post-content p {color: #666;}
 .about .post-header span {font-size: 22px; text-transform: uppercase; font-weight: 400;}
 .about .post-header h1 {font-size: 60px; margin-top: 5px;}
-.about .post-header h1::after {display: block; content: ""; width: 80px; height: 5px; background: $accentkleur; margin: 30px auto;}
+.about .post-header h1::after, .nieuws .post-header h1::after {display: block; content: ""; width: 80px; height: 5px; background: $accentkleur; margin: 30px auto!important;}
+
 
 .salon {height: 502px; background: url('../img/kapperamsterdamsalon.jpg') center center no-repeat; background-size: cover; background-attachment: fixed;}
 .salon .circle {text-align: center; background: white; color: $accentkleur; height: 450px; width: 450px; margin: 25px 0 0 -225px; border-radius: 250px; position: absolute; left: 50%;}
@@ -100,7 +211,7 @@ body.iOS .salon3 {background-attachment: scroll;}
 .salon .post-content {font-size: 18px; line-height: 1.9em;}
 .salon .post-content p {color: #666;}
 
-.salon2 {height: 502px; background: url('../img/kapper-amsterdam-salon2.jpg') center center no-repeat; background-size: cover; background-attachment: fixed;}
+.salon2 {height: 502px; background: url('../img/website-actie-foto-kapper-amsterdam-large.jpg') center 15% no-repeat; background-size: cover; background-attachment: fixed;}
 .page-template .salon2 {height: 240px; background-attachment: scroll;}
 
 .salon3 {height: 502px; background: url('../img/kapper-amsterdam-salon3.jpg') center center no-repeat; background-size: cover; background-attachment: fixed;}
@@ -142,16 +253,17 @@ footer a, footer a:hover, footer a:focus {color: white;}
 .site-footer h3 {padding: 90px 0 0; clear: both;}
 .site-footer .day {float: left;}
 .site-footer2 {padding: 15px 0; max-height: 99999px;}
-.site-footer2 .fa {margin-left: 5px; top: -2px; vertical-align: middle;}
+.site-footer2 .fa {margin-left: 5px; top: -2px; vertical-align: middle; font-size: 145%;}
+.site-footer2 a {text-decoration: none;}
 
 .navbar {border-radius: 0px!important;}
 .navbar-default {z-index: 2; position: absolute; width: 100%; background: transparent; border: 0; text-transform: uppercase;}
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {opacity: 1; text-decoration: none; border-top: 3px solid transparent; color: $tekstkleur_op_basis; margin: 20px 0 25px 30px; padding: 4px 0;}
-.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {border-top: 3px solid $tekstkleur_op_basis;}
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {opacity: 1; text-decoration: none; border-top: 3px solid transparent; color: #241a1f; margin: 20px 0 25px 30px; padding: 4px 0;}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {border-top: 3px solid #241a1f;}
 .navbar-collapse {-webkit-box-shadow: none; box-shadow: none;}
 .navbar-default .navbar-toggle {margin-top: 20px; margin-bottom: 22px;}
-.navbar-default .navbar-toggle .icon-bar {background-color: $tekstkleur_op_basis;}
+.navbar-default .navbar-toggle .icon-bar {background-color: #241a1f;}
 .page-template .navbar-default .navbar-toggle .icon-bar,
 .navbar-default.attop .navbar-toggle .icon-bar {background-color: $basiskleur;}
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {background-color: transparent; opacity: 1;}
@@ -189,6 +301,7 @@ h1 {text-transform: uppercase; font-weight: 700; font-size: 50px; margin-bottom:
 h3 {font-weight: 700; font-size: 21px; text-transform: uppercase;}
 p {margin-bottom: 2em;}
 .post-content h2 {margin-bottom: 0; margin-top: 25px; color: #666; font-family: 'PT Serif', serif; font-weight: 700; font-size: 15px; line-height: 2em;}
+.post-content h2 em {font-size: 22px; line-height: 1.25em; padding: 10px 0 5px; font-style: normal; display: block;}
 .post-content ul, 
 .post-content ol {margin-bottom: 2em; color: #666;}
 .featured-image img {margin-top: 10px; max-width: 100%;}
@@ -211,12 +324,13 @@ a:hover {text-decoration: none;}
 .btn-primary:active:hover, .btn-primary:focus, .btn-primary:hover {background: $highlightkleur; border-color: $highlightkleur!important;}
 .btn-default:active:hover, .btn-default:hover, .btn-primary:active:hover, .btn-primary:hover {opacity: 1;}
 .btn:active:hover, .btn:focus, .btn:hover {color: white;}
-.intro .btn-primary:hover, .intro .btn-default {color: white!important; border: 1px solid white!important; background: transparent!important;}
+.intro .btn-primary:hover, .intro .btn-default {color: white !important; border: 1px solid $highlightkleur !important; background: $highlightkleur!important;}
 .intro .btn-primary, .intro .btn-default:hover {border: 1px solid $accentkleur!important; background: $accentkleur!important;}
 .fa {font-size: 180%; display: inline-block; cursor: pointer; margin: 0; position: relative; top: 3px;} 
 .form-group {color: #666;}
 .btn:active {-webkit-box-shadow: none; box-shadow: none;}
 .form-control.error {border-color: red;}
+
 
 .arrow {
   position: absolute;
@@ -236,7 +350,7 @@ a:hover {text-decoration: none;}
   animation: bounce 2s infinite;
 }
 
-.team {padding: 90px 0; text-align: center;}
+.team {padding: 90px 0; text-align: center; background: #3b2c33;}
 .team > div {}
 .teamcontrol {font-size: 20px; position: relative; bottom: 6px;
     -webkit-user-select: none; /* webkit (safari, chrome) browsers */
@@ -375,12 +489,41 @@ label {font-weight: normal;}
 #controls a {color: white; text-decoration: none;}
 #controls a:hover, #controls a:active {color: silver;}
 
+.videoWrapper {
+	position: relative;
+	padding-bottom: 52.8%; /*custom */
+	height: 0;
+	margin-bottom: 25px;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+blockquote p {margin-bottom: 5px!important;}
+.gradientdown {
+  display: block;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+52,000000+100&0+52,0.32+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0) 52%, rgba(0,0,0,0.32) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 52%,rgba(0,0,0,0.32) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 52%,rgba(0,0,0,0.32) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#52000000',GradientType=0 ); /* IE6-9 */
+}
+.gradientdown img {opacity: 0;}
+.gradientdown h3 {position: absolute; left: 38px; bottom: 33px; border-bottom: 1px dotted rgba(255,255,255,0.5); width: calc(100% - 76px); color: white!important; line-height: 1.5em;}
+.gradientdown div {color: rgba(255,255,255,0.6); position: absolute; left: 38px; bottom: 15px; }
+.nieuws_date {border-top: 1px dotted silver; color: silver; line-height: 2.2em; padding-bottom: 50px;}
+.visualnieuws_date .fa, .nieuws_date .fa {font-size: 15px; position: relative; bottom: 6px; top: -1px; margin-right: 3px;}
+
+
 @media all and (max-width: 1199px) {
 .treatments .sidebar {padding-left: 0!important; border-left: 0!important;}
 }
 
 @media all and (max-width: 991px) {
-  .intro > div > div {background: rgba(86,76,73,0.8); height: 800px; }
+  .intro > div > div {background: rgba(195,195,195,0.8); height: 800px; }
   form, .twocols .post-content p {padding-right: 0px;}
 }
 @media all and (max-width: 767px) {
@@ -392,7 +535,7 @@ label {font-weight: normal;}
     transform: scale(0.9);
   }
   .salon {background-image: url('../img/kapperamsterdamsalon-s.jpg');}
-  .salon2 {background-image: url('../img/kapper-amsterdam-salon2-s.jpg');}
+  .salon2 {background-image: url('../img/website-actie-foto-kapper-amsterdam.jpg');}
 }
 @media all and (max-width: 600px) {
   .mobile {display: inline-block;}
@@ -400,9 +543,10 @@ label {font-weight: normal;}
 }
 @media all and (max-width: 450px) {
   p, .post-content{font-family: Georgia, 'PT Serif'!important;}
+  #popup div.popupcontent p {font-family: 'PT Sans Narrow', sans-serif!important;}
   .salon .circle p {width: 280px;}
   .salon .circle p .time {width: 140px;}
   .salon .circle p .day {width: 140px;}
   .salon {background-image: url('../img/kapperamsterdamsalon-xs.jpg');}
-  .salon2 {background-image: url('../img/kapper-amsterdam-salon2-xs.jpg');}
+  .salon2 {background-image: url('../img/website-actie-foto-kapper-amsterdam.jpg');}
 }
