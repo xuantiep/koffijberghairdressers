@@ -6,3 +6,4 @@ functie: Stylist
 order_number: 14
 ---
 
+*Available: Mon / Thur / Fri / Sat*
