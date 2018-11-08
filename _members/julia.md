@@ -1,7 +1,8 @@
 ---
 title: Julia
-naam: Bo
-image: /img/profielfotos/IMG_0360_0000s_0006_Layer 11.jpg
+naam: Julia
+image:
 functie: Stylist
-order_number: 10
+order_number: 14
 ---
+
