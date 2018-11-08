@@ -1,7 +1,7 @@
 ---
 title: Saverha
 naam: Saverha
-image:
+image: /uploads/kapper-amsterdam-saverha-junior-stylist-1.jpg
 functie: Junior-Stylist
 order_number: 27
 ---
