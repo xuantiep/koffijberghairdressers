@@ -1,5 +1,5 @@
 ---
-title: Nieuwsberichten
+title: News
 layout: nieuws
 ---
 
