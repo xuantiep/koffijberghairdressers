@@ -2,7 +2,7 @@
 title: Karin Overtoom
 naam: Karin Overtoom
 image: /uploads/Karin-overtoom-kapper-amsterdam.jpg
-functie: Master-Stylist
+functie: Master-Stylist / Color-Specialist
 order_number: 4
 ---
 
