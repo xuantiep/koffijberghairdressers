@@ -6,4 +6,4 @@ functie: Top-Stylist & Color-Specialist & Make-Up Artist
 order_number: 8
 ---
 
-*Availability: Thur / Fri / Sat*
+*Availability: Mon / Thur / Fri / Sat*
