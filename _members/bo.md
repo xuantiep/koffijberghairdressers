@@ -1,7 +1,7 @@
 ---
 title: Bo
 naam: Bo
-image: /img/profielfotos/IMG_0360_0000s_0006_Layer 11.jpg
+image: /uploads1/headshot.jpg
 functie: Top-Stylist & Color-Specialist
 order_number: 10
 ---
