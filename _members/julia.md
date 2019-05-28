@@ -1,7 +1,7 @@
 ---
 title: Julia
 naam: Julia
-image: /uploads/kapper-amsterdam-julia-stylist-2.jpg
+image: /uploads1/julia.jpg
 functie: Stylist
 order_number: 14
 ---
