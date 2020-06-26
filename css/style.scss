@@ -238,9 +238,9 @@ box-shadow: none;
     font-size: 22px;
     line-height: 1.7em;
     font-style: italic;
-    font-family: 'PT Serif', serif;
+    font-family: 'Jost';
     margin-bottom: 1.3em;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .treatments {padding: 90px 0; background: white; color: $accentkleur;}
@@ -253,7 +253,7 @@ box-shadow: none;
 .treatments td.text-center {padding-left: 15px; padding-right: 15px;}
 .treatments td a {text-decoration: none; color: #666;}
 
-footer p {margin: 0; font-family: 'PT Serif', serif; font-weight: 400; font-size: 15px; line-height: 2em;}
+footer p {margin: 0; font-family: 'Jost'; font-weight: 300; font-size: 15px; line-height: 2em;}
 footer a, footer a:hover, footer a:focus {color: white;}
 .site-footer {padding: 0 0 90px; background: $accentkleur; color: $tekstkleur_op_accent;}
 .site-footer .row > div {max-height: 99999px;}
@@ -307,7 +307,7 @@ footer a, footer a:hover, footer a:focus {color: white;}
 h1 {text-transform: uppercase; font-weight: 700; font-size: 50px; margin-bottom: 0.5em; margin-top: 0px;}
 h3 {font-weight: 700; font-size: 21px; text-transform: uppercase;}
 p {margin-bottom: 2em;}
-.post-content h2 {margin-bottom: 0; margin-top: 25px; color: #666; font-family: 'PT Serif', serif; font-weight: 700; font-size: 15px; line-height: 2em;}
+.post-content h2 {margin-bottom: 0; margin-top: 25px; color: #666; font-family: 'Jost'; font-weight: 600; font-size: 15px; line-height: 2em;}
 .post-content h2 em {font-size: 22px; line-height: 1.25em; padding: 10px 0 5px; font-style: normal; display: block;}
 .post-content ul, 
 .post-content ol {margin-bottom: 2em; color: #666;}
@@ -316,7 +316,7 @@ p {margin-bottom: 2em;}
 .post-content p a {color: #666;}
 a {text-decoration: underline;}
 a:hover {text-decoration: none;}
-.post-content {font-family: 'PT Serif', serif; font-weight: 400; font-size: 15px; line-height: 2em;}
+.post-content {font-family: 'Jost'; font-weight: 300; font-size: 15px; line-height: 2em;}
 
 .btn {color: white; text-decoration: none; padding-left: 25px; padding-right: 25px; border-radius: 0;border: 0; font-family: 'PT Sans Narrow', sans-serif; font-weight: 700; font-size: 17px; text-transform: uppercase;
     -webkit-transition: all 0.2s ease;                  
@@ -440,8 +440,8 @@ a:hover {text-decoration: none;}
     font-size: 12px;
     line-height: 1.6em;
     border-top: 1px solid rgba(255,255,255,0.5);
-    font-family: 'PT Serif', serif;
-    font-weight: 400;
+    font-family: 'Jost';
+    font-weight: 300;
 }
 .ch-info p a {
     display: block;
