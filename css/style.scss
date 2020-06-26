@@ -253,8 +253,8 @@ box-shadow: none;
 .treatments td.text-center {padding-left: 15px; padding-right: 15px;}
 .treatments td a {text-decoration: none; color: #666;}
 
-footer p {margin: 0; font-family: 'Jost'; font-weight: 300; font-size: 15px; line-height: 2em;}
-footer a, footer a:hover, footer a:focus {color: white;}
+footer p {margin: 0; font-family: 'Jost'; font-weight: 300; font-size: 15px; line-height: 1.8em;}
+footer a, footer a:hover, footer a:focus {color: white; text-decoration: none;}
 .site-footer {padding: 0 0 90px; background: $accentkleur; color: $tekstkleur_op_accent;}
 .site-footer .row > div {max-height: 99999px;}
 .site-footer h3 {padding: 90px 0 0; clear: both;}
@@ -307,7 +307,7 @@ footer a, footer a:hover, footer a:focus {color: white;}
 h1 {text-transform: uppercase; font-weight: 700; font-size: 50px; margin-bottom: 0.5em; margin-top: 0px;}
 h3 {font-weight: 700; font-size: 21px; text-transform: uppercase;}
 p {margin-bottom: 2em;}
-.post-content h2 {margin-bottom: 0; margin-top: 25px; color: #666; font-family: 'Jost'; font-weight: 600; font-size: 15px; line-height: 2em;}
+.post-content h2 {margin-bottom: 0; margin-top: 25px; color: #666; font-family: 'Jost'; font-weight: 600; font-size: 15px; line-height: 1.8em;}
 .post-content h2 em {font-size: 22px; line-height: 1.25em; padding: 10px 0 5px; font-style: normal; display: block;}
 .post-content ul, 
 .post-content ol {margin-bottom: 2em; color: #666;}
@@ -316,7 +316,7 @@ p {margin-bottom: 2em;}
 .post-content p a {color: #666;}
 a {text-decoration: underline;}
 a:hover {text-decoration: none;}
-.post-content {font-family: 'Jost'; font-weight: 300; font-size: 15px; line-height: 2em;}
+.post-content {font-family: 'Jost'; font-weight: 300; font-size: 15px; line-height: 1.8em;}
 
 .btn {color: white; text-decoration: none; padding-left: 25px; padding-right: 25px; border-radius: 0;border: 0; font-family: 'PT Sans Narrow', sans-serif; font-weight: 700; font-size: 17px; text-transform: uppercase;
     -webkit-transition: all 0.2s ease;                  
@@ -521,7 +521,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .gradientdown img {opacity: 0;}
 .gradientdown h3 {position: absolute; left: 38px; bottom: 33px; border-bottom: 1px dotted rgba(255,255,255,0.5); width: calc(100% - 76px); color: white!important; line-height: 1.5em;}
 .gradientdown div {color: rgba(255,255,255,0.6); position: absolute; left: 38px; bottom: 15px; }
-.nieuws_date {border-top: 1px dotted silver; color: silver; line-height: 2.2em; padding-bottom: 50px;}
+.nieuws_date {border-top: 1px dotted silver; color: silver; line-height: 1.8.2em; padding-bottom: 50px;}
 .visualnieuws_date .fa, .nieuws_date .fa {font-size: 15px; position: relative; bottom: 6px; top: -1px; margin-right: 3px;}
 
 .footerdate {width: 100px; display: inline-block;}
