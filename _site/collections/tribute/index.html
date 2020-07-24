@@ -515,6 +515,82 @@ VAT NL820928367B01 </p></div>
 </div>
 
 </footer>
+
+<a id="whatsappme" onclick="this.nextElementSibling.style.display = 'block';"><img src="/img/whatsapplogo.svg" /></a>
+<div id="whatsappwindow">
+    <div>
+        <h3 onclick="this.parentElement.parentElement.style.display = 'none'; this.parentElement.parentElement.previousElementSibling.style.display = 'block';"><span>WhatsApp</span>Koffijberg</h3>
+        <p>Simply send us a WhatsApp message. We will try to answer you as soon as possible.</p>
+        <img src="/img/whatsapplogo.svg" alt="whatsapp logo"><br>
+        <a href="https://wa.me/31647268686" class="btn" target="_blank" rel="noopener">WhatsApp us!</a>
+    </div>
+</div>
+<style>
+  #whatsappme {position: fixed; cursor: pointer;}
+  #whatsappme, #whatsappwindow {bottom: 20px; right: 15px;}
+  #whatsappme img {max-width: 70px;}
+  #whatsappwindow {
+    display:flex;
+    align-items:flex-start;
+    color: rgba(22,27,39,.6);
+    position: fixed;
+    display: none;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+  }
+  #whatsappwindow>div {
+    background:#f3f3f3;
+    text-align:center;
+    max-width:23rem;
+  }
+  #whatsappwindow>div h3 {
+    background:#1d6d5c;
+    color:#fff;
+    padding:.75rem 1rem .75rem;
+    margin: 0 0 1rem!important;
+    position: relative;
+  }
+  #whatsappwindow>div h3::after{
+    cursor: pointer;
+    position: absolute;
+    top: 0px; right: 5px;
+    content: "+";
+    font-family: 'Jost';
+    font-size:3rem;
+    font-weight: 300;
+    transform: rotate(45deg);
+    margin-top: -2px;
+  }
+  #whatsappwindow>div h3 span {
+    font-weight:400;
+    display:block;
+    font-size:1.3rem;
+    font-family: 'Jost';
+    text-transform: initial;
+  }
+  #whatsappwindow>div p {
+    padding:.5rem 1rem;
+    font-family: 'Jost';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.4em;
+    margin-bottom: 0;
+  }
+  #whatsappwindow>div img {
+    width: 80px;
+    margin:0 1rem 1rem;
+  }
+  #whatsappwindow>div .btn {
+    position:relative;
+    background:#ff8e00;
+    margin:1rem 1rem 1.5rem;
+    border:0;
+    font-weight:700;
+    color:#fff;
+    border-bottom:4px solid #b76e01;
+  }
+
+</style>
+
 </div>
 <div id="lightbox" style="width:100%;height:100%;" onclick="closeimage();" ><div style="display:table-cell;vertical-align:middle;"><div id="controls"><span onclick="goPrev(event); return false;" id="prevbutton">‹</span><span onclick="goNext(event); return false;" id="nextbutton">›</span></div><span id="closebutton">sluiten</span><img id="image" src="" /></div></div>
     <!-- Bootstrap core JavaScript

@@ -1,5 +1,10 @@
 ---
 layout: home
+youtube_ids: 
+  - youtube_id: 5QpnCnn4qDk
+  - youtube_id: M0hxoAYnayU
+  - youtube_id: bnVetOv-59k
+header_overlay: true
 highlights:
   - title: Award-winning hairdresser
     text: 'In the past, Koffijberg Hairdressers has won, amongst others, the Global Salon Business Award and, in 2013, the Coiffure Award. For over 40 years, Koffijberg Hairdressers Amsterdam stands for craftsmanship, creativity, and innovation in haircuts, colors, and styling. Our hairdressers are trendsetters, who excel in their technical skills and dedicated approach to their clients.'
