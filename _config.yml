@@ -14,7 +14,7 @@ defaults:
     values:
       layout: 'member'
 
-permalink: /nieuws/:year/:month/:day/:title/
+permalink: /news/:year/:month/:day/:title/
 
 collections:
   members:
@@ -26,6 +26,8 @@ collections:
   collecties:
     output: true
     permalink: /collections/:path/
+  instagram:
+    output: false
 
 title: 'Koffijberg Hairdressers in Amsterdam'
 url: https://www.koffijberghairdressers.com
