@@ -2,7 +2,7 @@
 title: Brittney
 naam: Brittney
 image: /uploads/team-brittney.jpg
-functie: Junior-Stylist
+functie: Stylist
 order_number: 25
 ---
 
