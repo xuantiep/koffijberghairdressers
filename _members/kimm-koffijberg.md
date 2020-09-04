@@ -1,15 +1,13 @@
 ---
 title: Kimm Koffijberg
 naam: Kimm
-image: /img/profielfotos/IMG_0360_0000s_0002_Layer 15.jpg
+image: /uploads/team-kimm.jpg
 functie: 'Master-Stylist, Kleurspecialist and Owner'
 order_number: -1
 ---
 
-Voor mij is het knippen en het kleuren van jouw haar net zo belangrijk als het adviesgesprek dat daaraan vooraf gaat. Ik vind het belangrijk om het mooiste bij jou naar boven te halen. Door goed naar je te luisteren en door jouw haar goed te analyseren. Wat heb jij nodig om een bepaalde uitstraling te bereiken? Welke haarkleuren passen het beste bij jouw huidskleur? Graag ga ik hier met je over in gesprek.
+Kimm is the best inknowing what she's talking about\! She literally grew up in the hairdressing world. Kimm has been the proud owner of Koffijberg Hairdressers since 2009, which she took over from her father. Her activity is to make Koffijberg Hairdresser innovative, inspiring and successful. Kimm believes that the entire Koffijberg team is important in this regard. The strength of the team is to strengthen each other, each based on thier own expertise. As a hairdresser and color specialist, her strength lies in giving advice about a haircut or color that matches your face shape and complexion and fits your lifestyle. Kimm is strong in communication and loves a challenge\! She has a lot of passion for the hairdressing profession it’s in her blood. She is very good at working out and refining a haircut or color that is partly due to her years of experience. Are you looking for a new look but don't know exactly what you want? Then you can make an appointment with kimm.
 
-Sinds 2009 ben ik de trotse eigenaar van Koffijberg Hairdressers. Het is mijn droom om Koffijberg Hairdressers ook de komende jaren innovatief, inspirerend en succesvol te laten zijn. Het hele Koffijbergteam is daarbij van belang. De kracht van ons team is dat wij elkaar enorm versterken, ieder vanuit zijn eigen expertise.
-
-Grote inspiratiebron voor mijn werk is de stad Amsterdam, een stad die constant in beweging is. Oude delen van de stad worden op bijzondere manieren vernieuwd en er is veel boeiende architectuur te zien. Ook de natuur en alle kleuren in de stad inspireren mij. Ik hou van de mensen en het internationale karakter van Amsterdam. De stad met de meeste nationaliteiten ter wereld.
+&nbsp;
 
 *Availability: di / do / vr / za*
