@@ -28,7 +28,9 @@ collections:
     permalink: /collections/:path/
   instagram:
     output: false
-
+  timeline:
+    output: false
+    
 title: 'Koffijberg Hairdressers in Amsterdam'
 url: https://www.koffijberghairdressers.com
 twitter_url: https://twitter.com/KoffijbergHair
